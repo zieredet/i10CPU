@@ -1,0 +1,7 @@
+C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\bin\Debug\TestCPUEngine.dll
+C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\bin\Debug\TestCPUEngine.pdb
+C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.dll
+C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.pdb

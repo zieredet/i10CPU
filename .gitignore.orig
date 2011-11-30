@@ -1,3 +1,8 @@
+
+<<<<<<< HEAD
+bin/*
+=======
+*.obj
 #ignore thumbnails created by windows
 Thumbs.db
 #Ignore files build by Visual Studio
@@ -26,3 +31,4 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+>>>>>>> 985cfe8387f50715212ee31185952018327964e1

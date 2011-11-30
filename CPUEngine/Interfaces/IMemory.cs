@@ -35,12 +35,18 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         {
             memValue = (highByte % 256) * 256 + (lowByte % 256);
         }
-
-
     }
 
     public class Instruction : Word
     {
+        public Instruction() : base() { }
+
+        public Instruction(int value)
+            : this()
+        {
+            memValue = value;
+        }
+
         public int InstructionCode
         {
             get { return memValue; }

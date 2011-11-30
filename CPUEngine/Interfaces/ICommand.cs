@@ -7,6 +7,8 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
 {
     public interface ICommand
     {
+
+
         /// <summary>
         /// Executes the command, Writes direct to the memory
         /// </summary>
@@ -33,8 +35,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         /// Parses a String to OpCode (Mnemonic)
         /// </summary>
         /// <param name="opcode"></param>
-        /// <returns></returns>
-        ICommand Parse(string opcode);
+        void Parse(string opcode);
 
     }
 }

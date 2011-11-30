@@ -12,12 +12,15 @@ namespace ch.zhaw.HenselerGroup.CPU
     public class CPU
     {
         private IMemory mem = null;
+        private RegisterSet registerSet = null;
 
 
         public CPU()
         {
             mem = new MemoryBasic();
             mem.Init(Config.MEM_SIZE);
+
+            registerSet= new RegisterSet();
         }
 
         public string[] ReadPgm(string fullFilename)

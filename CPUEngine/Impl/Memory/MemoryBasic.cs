@@ -19,7 +19,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
 
         public Word GetWord(int address)
         {
-            if (mem == null || mem.Length > address || address < 0) return null;
+            if (mem == null || mem.Length < address-1 || address < 0) return null;
             return new Word( mem[address], mem[address+1]);
         }
 
@@ -37,7 +37,8 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
 
         public void SetWord(int address, Word word)
         {
-            mem[address] = word.UValue;
+            mem[address] = (int)(word.UValue / 256);
+                mem[address+1] = (int)(word.UValue % 256);
         }
     }
 }

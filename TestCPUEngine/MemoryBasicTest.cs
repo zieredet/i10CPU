@@ -72,10 +72,13 @@ namespace TestCPUEngine
         public void SetWordTest()
         {
             MemoryBasic target = new MemoryBasic(); // TODO: Initialize to an appropriate value
-            int address = 0; // TODO: Initialize to an appropriate value
-            Word word = null; // TODO: Initialize to an appropriate value
-            target.SetWord(address, word);
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+            target.Init(16);
+            int address = 10; 
+            
+            Word expected= new Word(0,10);
+            target.SetWord(address, expected);
+            Word current = target.GetWord(address);
+            Assert.AreEqual(current.UValue, expected.UValue);
         }
 
         /// <summary>
@@ -88,7 +91,7 @@ namespace TestCPUEngine
             MemoryBasic mem = new MemoryBasic();
             mem.Init(10);
             int address = 4;
-            Word expected = new Word(100);
+            Word expected = new Word(0,100);
             Word actual;
             mem.SetWord(address, expected);
             actual = mem.GetWord(address);

@@ -85,9 +85,9 @@ namespace TestCPUEngine
             int startAddress = 0; // TODO: Initialize to an appropriate value
             target.LoadMemory(codelines, startAddress);
 
-            Assert.AreNotEqual(0,mem.GetWord(0).UValue);
-            Assert.AreNotEqual(0, mem.GetWord(1).UValue);
-            Assert.AreNotEqual(0, mem.GetWord(2).UValue);
+            Assert.AreEqual(0,mem.GetWord(0).UValue);
+            Assert.AreEqual(0, mem.GetWord(1).UValue);
+            Assert.AreEqual(0, mem.GetWord(2).UValue);
 
            
         }

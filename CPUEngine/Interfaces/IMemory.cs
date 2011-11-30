@@ -35,7 +35,21 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         {
             memValue = (highByte % 256) * 256 + (lowByte % 256);
         }
+
+        public override bool Equals(object obj)
+        {
+            if (!(obj is Word)) return false;
+
+            Word w = (Word)obj;
+            return ( w.UValue== UValue);
+        }
+
+        public override int GetHashCode()
+        {
+            return UValue;
+        }        
     }
+
 
     public class Instruction : Word
     {

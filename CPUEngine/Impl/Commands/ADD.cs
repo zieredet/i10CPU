@@ -72,9 +72,9 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
 
         public Instruction Decode()
         {
-            if (errorWhileParsing) return new Instruction();  // Stop
+            if (errorWhileParsing) return new Instruction(0);  // Stop
 
-            throw new NotImplementedException();
+            return new Instruction(12);
         }
     }
 }

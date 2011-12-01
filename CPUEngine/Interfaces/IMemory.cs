@@ -56,9 +56,9 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         public Instruction() : base() { }
 
         public Instruction(int value)
-            : this()
+            : base(value)
         {
-            memValue = value;
+            // memValue = value;
         }
 
         public int InstructionCode

@@ -20,14 +20,14 @@ namespace ch.zhaw.HenselerGroup.CPU
             mem = new MemoryBasic();
             mem.Init(Config.MEM_SIZE);
 
-            registerSet= new RegisterSet();
+            registerSet = new RegisterSet();
         }
 
         public string[] ReadPgm(string fullFilename)
         {
             FileInfo file = new FileInfo(fullFilename);
             if (!file.Exists) throw new FileNotFoundException(String.Format("File {0} not found or no permission", fullFilename));
-            
+
             if (!fullFilename.ToLower().EndsWith(".cpu"))
                 throw new CPUException("filetyp not supported");
 
@@ -52,5 +52,7 @@ namespace ch.zhaw.HenselerGroup.CPU
                 startAddress += cmd.CommandLength;
             }
         }
+
+        public IMemory Memory { get { return mem; } }
     }
 }

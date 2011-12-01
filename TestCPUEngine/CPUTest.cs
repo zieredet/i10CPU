@@ -1,6 +1,7 @@
 ﻿using ch.zhaw.HenselerGroup.CPU;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.IO;
 
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
 using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
@@ -87,11 +88,50 @@ namespace TestCPUEngine
             int startAddress = 0; // TODO: Initialize to an appropriate value
             target.LoadMemory(codelines, startAddress);
 
-            Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);
-            Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);
-            Assert.AreNotEqual(0, target.Memory.GetWord(4).UValue);
+            Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);  // ADD R1
+            Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);  // ADD 500
+            Assert.AreNotEqual(0, target.Memory.GetWord(4).UValue);  // ADD R2
+            Assert.AreEqual(0, target.Memory.GetWord(6).UValue);
+        }
 
+        /// <summary>
+        /// Test FileNotFoundException
+        ///</summary>
+        [TestMethod()]
+        public void ReadPgmTestFileNotFound()
+        {
+            CPU target = new CPU();
+            string fullFilename = "FileNotExist.cpu";
+            string[] actual;
+            try
+            {
+                actual = target.ReadPgm(fullFilename);
+                Assert.Fail("fileNotFoundException exptected");
+            }
+            catch (FileNotFoundException)
+            {
+                Assert.IsTrue(true);
+            }
+        }
 
+        /// <summary>
+        /// Test Extention not Supported
+        ///</summary>
+        [TestMethod()]
+        public void ReadPgmTestFileExtNotSupported()
+        {
+            CPU target = new CPU();
+            string fullFilename = "FileNotExist.txt";
+            string[] actual;
+            try
+            {
+                actual = target.ReadPgm(fullFilename);
+                Assert.Fail("FileExtention not supported");
+            }
+            catch (CPUException)
+            {
+                Assert.IsTrue(true);
+            }
         }
     }
 }

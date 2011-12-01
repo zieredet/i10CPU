@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace ch.zhaw.HenselerGroup.CPU.Interfaces
 {

@@ -5,6 +5,7 @@ using System.Text;
 using System.Reflection;
 
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
+using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
 {

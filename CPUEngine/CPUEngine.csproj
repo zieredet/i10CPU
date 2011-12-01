@@ -48,6 +48,9 @@
     <Compile Include="CPU.cs" />
     <Compile Include="Impl\Commands\MOVE.cs" />
     <Compile Include="Impl\MemoryFactory.cs" />
+    <Compile Include="Impl\Memory\Instruction.cs" />
+    <Compile Include="Impl\Memory\Number.cs" />
+    <Compile Include="Impl\Memory\Word.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Interfaces\IMemory.cs" />
     <Compile Include="Impl\Memory\MemoryBasic.cs" />

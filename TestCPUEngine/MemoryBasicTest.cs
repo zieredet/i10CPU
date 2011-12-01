@@ -71,7 +71,7 @@ namespace TestCPUEngine
         [TestMethod()]
         public void SetWordTest()
         {
-            MemoryBasic target = new MemoryBasic(); // TODO: Initialize to an appropriate value
+            MemoryBasic target = new MemoryBasic(); 
             target.Init(16);
             int address = 10; 
             

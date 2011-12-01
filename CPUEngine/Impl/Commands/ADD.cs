@@ -74,7 +74,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         {
             if (errorWhileParsing) return new Instruction(0);  // Stop
 
-            return new Instruction(0);
+            return new Instruction(1);
         }
     }
 }

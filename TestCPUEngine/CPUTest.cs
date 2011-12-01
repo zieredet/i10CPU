@@ -6,8 +6,8 @@ using ch.zhaw.HenselerGroup.CPU.Interfaces;
 using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace TestCPUEngine
-{  
-    
+{
+
     /// <summary>
     ///This is a test class for CPUTest and is intended
     ///to contain all CPUTest Unit Tests
@@ -16,6 +16,7 @@ namespace TestCPUEngine
     public class CPUTest
     {
         IMemory mem = null;
+        CPU cpu = null;
         private TestContext testContextInstance;
 
         /// <summary>
@@ -35,14 +36,14 @@ namespace TestCPUEngine
         }
 
         #region Additional test attributes
-         
+
         //You can use the following additional attributes as you write your tests:
         //
         //Use ClassInitialize to run code before running the first test in the class
         [ClassInitialize()]
         public static void MyClassInitialize(TestContext testContext)
         {
-            
+
         }
         //
         //Use ClassCleanup to run code after all tests in a class have run
@@ -56,7 +57,8 @@ namespace TestCPUEngine
         public void MyTestInitialize()
         {
             mem = new MemoryBasic();
-            mem.Init(Config.MEM_SIZE); 
+            mem.Init(Config.MEM_SIZE);
+
         }
         //
         //Use TestCleanup to run code after each test has run
@@ -65,7 +67,7 @@ namespace TestCPUEngine
         {
             mem = null;
         }
-        
+
         #endregion
 
 
@@ -75,8 +77,8 @@ namespace TestCPUEngine
         [TestMethod()]
         public void LoadMemoryTest()
         {
-            
-            CPU target = new CPU(); // TODO: Initialize to an appropriate value
+            CPU target = new CPU();
+
             string[] codelines = new string[] {
                 "ADD R1",
                 "ADD 500",
@@ -85,11 +87,11 @@ namespace TestCPUEngine
             int startAddress = 0; // TODO: Initialize to an appropriate value
             target.LoadMemory(codelines, startAddress);
 
-            Assert.AreEqual(0,mem.GetWord(0).UValue);
-            Assert.AreEqual(0, mem.GetWord(1).UValue);
-            Assert.AreEqual(0, mem.GetWord(2).UValue);
+            Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);
+            Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);
+            Assert.AreNotEqual(0, target.Memory.GetWord(4).UValue);
 
-           
+
         }
     }
 }

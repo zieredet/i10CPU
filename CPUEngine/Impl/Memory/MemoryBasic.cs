@@ -16,29 +16,20 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
             mem = new int[size];
         }
 
-
         public Word GetWord(int address)
         {
-            if (mem == null || mem.Length < address-1 || address < 0) return null;
-            return new Word( mem[address], mem[address+1]);
+            if (mem == null || mem.Length < address - 1 || address < 0) return null;
+            return new Word(mem[address], mem[address + 1]);
         }
 
 
-        public void SetInstruction(int address, int instuction)
+        public void SetInstruction(int address, int instuction) { mem[address] = instuction; }
+        public void SetInstruction(int address, Instruction instruction) { SetWord(address, instruction.InstructionCode); }
+        public void SetWord(int address, Word word) { SetWord(address, word.UValue); }
+        public void SetWord(int address, int uvalue)
         {
-            mem[address]= instuction;
-        }
-
-
-        public void SetInstruction(int address, Instruction instruction)
-        {
-            SetInstruction(address, instruction.InstructionCode);
-        }
-
-        public void SetWord(int address, Word word)
-        {
-            mem[address] = (int)(word.UValue / 256);
-                mem[address+1] = (int)(word.UValue % 256);
+            mem[address] = (int)(uvalue / 256);
+            mem[address + 1] = (int)(uvalue % 256);
         }
     }
 }

@@ -33,5 +33,11 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         {
             throw new NotImplementedException();
         }
+
+
+        void ICommand.Parse(string opcode)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

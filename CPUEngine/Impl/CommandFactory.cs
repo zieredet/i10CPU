@@ -18,6 +18,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl
         {
             if (codeLine.StartsWith("ADDD ")) return new ADD();
             if (codeLine.StartsWith("ADD ")) return new ADD();
+            if (codeLine.StartsWith("LOAD ")) return new LOAD();
             //if (codeLine.StartsWith("SLA ")) return new SLA();
 
             return null;

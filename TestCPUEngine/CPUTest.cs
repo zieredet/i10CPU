@@ -147,8 +147,12 @@ namespace TestCPUEngine
             };
             int startAddress = 0; 
             target.LoadMemory(codelines, startAddress);
-            target.Run(startAddress);
 
+            Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);
+            Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);
+            Assert.AreEqual(0, target.Memory.GetWord(4).UValue); 
+
+            target.Run(startAddress);
             Assert.AreEqual(-250, target.GetRegisterValue(0));
         }
 

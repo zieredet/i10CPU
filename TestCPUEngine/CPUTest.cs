@@ -8,7 +8,6 @@ using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace TestCPUEngine
 {
-
     /// <summary>
     ///This is a test class for CPUTest and is intended
     ///to contain all CPUTest Unit Tests
@@ -17,12 +16,11 @@ namespace TestCPUEngine
     public class CPUTest
     {
         IMemory mem = null;
-        CPU cpu = null;
         private TestContext testContextInstance;
 
         /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
+        /// Gets or sets the test context which provides
+        /// information about and functionality for the current test run.
         ///</summary>
         public TestContext TestContext
         {
@@ -39,7 +37,6 @@ namespace TestCPUEngine
         #region Additional test attributes
 
         //You can use the following additional attributes as you write your tests:
-        //
         //Use ClassInitialize to run code before running the first test in the class
         [ClassInitialize()]
         public static void MyClassInitialize(TestContext testContext)
@@ -133,5 +130,28 @@ namespace TestCPUEngine
                 Assert.IsTrue(true);
             }
         }
+
+
+
+        /// <summary>
+        ///A test for LoadMemory
+        ///</summary>
+        [TestMethod()]
+        public void AddNegNumTest()
+        {
+            CPU target = new CPU();
+
+            string[] codelines = new string[] {
+                "LOAD R0,-500",
+                "ADD 250"
+            };
+            int startAddress = 0; 
+            target.LoadMemory(codelines, startAddress);
+            target.Run(startAddress);
+
+            Assert.AreEqual(-250, target.GetRegisterValue(0));
+        }
+
+
     }
 }

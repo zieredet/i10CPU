@@ -8,7 +8,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
 {
     public interface ICommand
     {
-
+        
 
         /// <summary>
         /// Executes the command, Writes direct to the memory
@@ -38,5 +38,8 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         /// <param name="opcode"></param>
         void Parse(string opcode);
 
+        string GetCommand();
+
+        string[] Syntax { get; }
     }
 }

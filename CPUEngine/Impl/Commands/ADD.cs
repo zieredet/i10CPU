@@ -10,11 +10,11 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
     public class ADD : ICommand
     {
         private int register = -1;
-        private int absValue = 0;
+        private int value = 0;
         private bool useRegister = false;
         private bool errorWhileParsing = true;
-
-
+        private string orgCommand = null;
+        
         public void Execute(IMemory mem, RegisterSet registerSet)
         {
             if (errorWhileParsing) return;
@@ -25,7 +25,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
                 return;
             }
 
-            registerSet.Accu += absValue;
+            registerSet.Accu += value;
             return;
         }
 
@@ -50,23 +50,20 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         {
             errorWhileParsing = true;
             useRegister = false;
+            orgCommand = opcode;
 
-            string[] parts = opcode.Split(' ');
-            if (parts.Length != 2) return;
-
-            string arg1 = parts[1].ToUpper();
-            if (arg1.StartsWith("R"))
-            {
-                int.TryParse(arg1.Substring(1, 1), out register);    // according to MS, best bractice
-
-                if (register < 1 || register > RegisterSet.LastRegisterNr) return;
+            int regNr = CommandBase.ParseRegister(opcode, 2);
+            if( regNr != CommandBase.INVALID_VALUE_INT){
+                // ADD Rx   ; Add Register x to Accu
+                this.register = regNr;
                 errorWhileParsing = false;
                 useRegister = true;
                 return;
             }
 
-            int.TryParse(arg1, out absValue);
-            errorWhileParsing = false;
+            int val=  CommandBase.ParseNumber(opcode, 2);
+            errorWhileParsing = val == CommandBase.INVALID_VALUE_INT;
+            this.value = val;
             return;
         }
 
@@ -75,7 +72,35 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         {
             if (errorWhileParsing) return new Instruction(0);  // Stop
 
-            return new Instruction(1);
+            // ADD Register 000xx111 <not used>
+            // ADD #  0010<12Bit Data>
+            if (useRegister)
+            {
+                int inst = 0 | 1024 | 512 | 256;
+
+                if (useRegister) inst = inst | register * 2048;
+                return new Instruction(inst);
+            }
+
+            int inst2 = 8192;
+            inst2 += value;
+            return new Instruction(inst2, orgCommand);
+        }
+
+
+        public string[] Syntax
+        {
+            get { return new string[] { 
+                    "ADD Rx,value = Add value to Reg X",
+                    "ADD value = Add value to Accu" 
+                 }; 
+            }
+        }
+
+
+        public string GetCommand()
+        {
+            return orgCommand;
         }
     }
 }

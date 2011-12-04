@@ -1,0 +1,9 @@
+﻿
+    15   14   13    12     11   10   9  8      7  6  5  4   3 2 1 0
+ 32768 16384 8192 4096 ' 2048 1024 512 256 ' 128 64 32 16 ' 8 4 2 1
+
+
+
+      // ADD Register		000xx111 <not used>
+      // ADD #				0010<12Bit Data>  only unsigned values are supported      
+	  // LOAD Register		010xx<value> 

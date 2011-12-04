@@ -23,6 +23,10 @@ namespace ch.zhaw.HenselerGroup.CPU
             registerSet = new RegisterSet();
         }
 
+        public void Run(int startAddress)
+        {
+        }
+
         public string[] ReadPgm(string fullFilename)
         {
             if (!fullFilename.ToLower().EndsWith(".cpu"))
@@ -54,5 +58,14 @@ namespace ch.zhaw.HenselerGroup.CPU
         }
 
         public IMemory Memory { get { return mem; } }
+
+        public int GetRegisterValue(int registerNr)
+        {
+            return registerSet.GetRegisterVal(registerNr);
+        }
+        public int GetRegisterUValue(int registerNr)
+        {
+            return registerSet.GetRegisterUVal(registerNr);
+        }
     }
 }

@@ -7,11 +7,24 @@ namespace ch.zhaw.HenselerGroup.CPU
 {
     public class RegisterSet
     {
-        public const int LastRegisterNr = 4;  // 0=Accu, 1..4
+        public const int LastRegisterNr = 3;  // 0=Accu, 1..3
 
         private int accuIdx { get { return LastRegisterNr + 1; } }
-        private int[] registers = new int[LastRegisterNr + 1];
+        private int[] registers = new int[LastRegisterNr + 2];
 
+        protected int MemValToSignedInt(int uvalue)
+        {
+            if (uvalue % 2 == 1)
+                return -(int)(uvalue / 2);
+            else
+                return uvalue / 2;
+        }
+
+        protected int SignedIntToMemVal(int value)
+        {
+            if (value < 0) return Math.Abs(value) * 2 + 1;
+            return value * 2;
+        }
 
         public int Accu
         {
@@ -42,11 +55,23 @@ namespace ch.zhaw.HenselerGroup.CPU
 
         public int GetRegisterVal(int registerNr)
         {
-            return registers[registerNr];
+            if (registerNr == 0)
+                return MemValToSignedInt(Accu);
+            else
+                return MemValToSignedInt(registers[registerNr]);
         }
         public void SetRegisterVal(int registerNr, int value)
         {
-            registers[registerNr] = value;
+            if (registerNr == 0)
+                Accu = SignedIntToMemVal(value);
+            else
+                registers[registerNr] = SignedIntToMemVal(value);
+        }
+
+        
+        public int GetRegisterUVal(int registerNr)
+        {
+            return registers[registerNr];
         }
     }
 }

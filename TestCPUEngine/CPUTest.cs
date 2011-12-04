@@ -134,13 +134,12 @@ namespace TestCPUEngine
 
 
         /// <summary>
-        ///A test for LoadMemory
+        ///A Add test
         ///</summary>
         [TestMethod()]
         public void AddNegNumTest()
         {
             CPU target = new CPU();
-
             string[] codelines = new string[] {
                 "LOAD R0,-500",
                 "ADD 250"

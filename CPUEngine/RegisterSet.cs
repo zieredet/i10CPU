@@ -28,28 +28,28 @@ namespace ch.zhaw.HenselerGroup.CPU
 
         public int Accu
         {
-            get { return registers[accuIdx]; }
+            get { return GetRegisterVal(accuIdx); }
             set { registers[accuIdx] = value; }
         }
 
         public int R1
         {
-            get { return registers[0]; }
+            get { return GetRegisterVal(0); }
             set { registers[0] = value; }
         }
         public int R2
         {
-            get { return registers[1]; }
+            get { return GetRegisterVal(1); }
             set { registers[1] = value; }
         }
         public int R3
         {
-            get { return registers[2]; }
+            get { return GetRegisterVal(2); }
             set { registers[2] = value; }
         }
         public int R4
         {
-            get { return registers[3]; }
+            get { return GetRegisterVal(3); }
             set { registers[3] = value; }
         }
 

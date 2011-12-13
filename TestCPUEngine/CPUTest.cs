@@ -156,5 +156,55 @@ namespace TestCPUEngine
         }
 
 
+        /// <summary>
+        ///A Add test
+        ///</summary>
+        [TestMethod()]
+        public void AddNumTest()
+        {
+            CPU target = new CPU();
+            string[] codelines = new string[] {
+                "LOAD R0,500",
+                "ADD 250"
+            };
+            int startAddress = 0;
+            target.LoadMemory(codelines, startAddress);
+
+            Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);
+            Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);
+            Assert.AreEqual(0, target.Memory.GetWord(4).UValue);
+
+            target.Run(startAddress);
+            Assert.AreEqual(750, target.GetRegisterValue(0));
+        }
+
+
+        /// <summary>
+        /// Add a Large Number test
+        ///</summary>
+        [TestMethod()]
+        public void AddLargeNumTest()
+        {
+            CPU target = new CPU();
+            string[] codelines = new string[] {
+                // 2000 + 100*250
+                "LOAD R0,2000",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250"
+            };
+            int startAddress = 0;
+            target.LoadMemory(codelines, startAddress);
+
+            target.Run(startAddress);
+            Assert.AreEqual(27000, target.GetRegisterValue(0));
+        }
     }
 }

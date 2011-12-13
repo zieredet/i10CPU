@@ -29,41 +29,41 @@ namespace ch.zhaw.HenselerGroup.CPU
         public int Accu
         {
             get { return GetRegisterVal(accuIdx); }
-            set { registers[accuIdx] = value; }
+            set { SetRegisterVal(accuIdx, value); }
         }
 
         public int R1
         {
             get { return GetRegisterVal(0); }
-            set { registers[0] = value; }
+            set { SetRegisterVal(0, value); }
         }
         public int R2
         {
             get { return GetRegisterVal(1); }
-            set { registers[1] = value; }
+            set { SetRegisterVal(1, value); }
         }
         public int R3
         {
             get { return GetRegisterVal(2); }
-            set { registers[2] = value; }
+            set { SetRegisterVal(2, value); }
         }
         public int R4
         {
             get { return GetRegisterVal(3); }
-            set { registers[3] = value; }
+            set { SetRegisterVal(3, value); }
         }
 
         public int GetRegisterVal(int registerNr)
         {
             if (registerNr == 0)
-                return MemValToSignedInt(Accu);
+                return MemValToSignedInt(registers[accuIdx]);
             else
                 return MemValToSignedInt(registers[registerNr]);
         }
         public void SetRegisterVal(int registerNr, int value)
         {
             if (registerNr == 0)
-                Accu = SignedIntToMemVal(value);
+                registers[accuIdx] = SignedIntToMemVal(value);
             else
                 registers[registerNr] = SignedIntToMemVal(value);
         }

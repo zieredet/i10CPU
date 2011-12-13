@@ -50,9 +50,11 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADDTest.cs" />
     <Compile Include="CPUTest.cs" />
     <Compile Include="MemoryBasicTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterSetTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CPUEngine\CPUEngine.csproj">

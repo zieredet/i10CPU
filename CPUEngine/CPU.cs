@@ -23,13 +23,17 @@ namespace ch.zhaw.HenselerGroup.CPU
             registerSet = new RegisterSet();
         }
 
+        public void Run(int startAddress)
+        {
+        }
+
         public string[] ReadPgm(string fullFilename)
         {
-            FileInfo file = new FileInfo(fullFilename);
-            if (!file.Exists) throw new FileNotFoundException(String.Format("File {0} not found or no permission", fullFilename));
-
             if (!fullFilename.ToLower().EndsWith(".cpu"))
                 throw new CPUException("filetyp not supported");
+
+            FileInfo file = new FileInfo(fullFilename);
+            if (!file.Exists) throw new FileNotFoundException(String.Format("File {0} not found or no permission", fullFilename));
 
             return File.ReadAllLines(fullFilename);
         }
@@ -54,5 +58,14 @@ namespace ch.zhaw.HenselerGroup.CPU
         }
 
         public IMemory Memory { get { return mem; } }
+
+        public int GetRegisterValue(int registerNr)
+        {
+            return registerSet.GetRegisterVal(registerNr);
+        }
+        public int GetRegisterUValue(int registerNr)
+        {
+            return registerSet.GetRegisterUVal(registerNr);
+        }
     }
 }

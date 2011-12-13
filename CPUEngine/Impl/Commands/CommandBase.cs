@@ -5,6 +5,7 @@ using System.Text;
 using System.Reflection;
 
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
+using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
 {
@@ -13,28 +14,52 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
      * which implements default behavior and 
      * default values for most attributes and methods
      */
-    public abstract class CommandBase 
+    public abstract class CommandBase
     {
         public virtual int CommandLength { get { return 2; } }
-        
+
+        public const int INVALID_VALUE_INT = int.MinValue;
+
         public abstract void Execute(IMemory mem, RegisterSet registerSet);
 
         public abstract string Name { get; }
 
         public abstract Instruction Decode(string opcode);
 
-        public ICommand Parse(string codeline)
-        {
-            //if (String.IsNullOrEmpty(codeline)) continue;
-            //else if (i1 == 0) continue;
-            //else if (i1 > 0)
-            //    opcode = codeline.Substring(0, i1 - 1).Trim();
-            //else
-            //    opcode = codeline.Trim();
+       
 
-            return null;
+        /// <summary>
+        /// Parse the number part 
+        /// </summary>
+        /// <param name="number"></param>
+        /// <param name="part">which part of the command contains the number<br/>
+        /// Sample: Add R1,500 => 3th part<br/>
+        ///  ADD 500 => 2nd part</param>
+        /// <returns></returns>
+        public static int ParseNumber(string codeline, int part)
+        {
+            string[] ss = codeline.Split(' ', ',');
+            if (ss.Length < part) return INVALID_VALUE_INT;   //  throw new IndexOutOfRangeException("Part does not exist");
+
+            int nbr = INVALID_VALUE_INT;
+            int.TryParse(ss[part - 1], out nbr);
+            
+            if (nbr < 0) nbr = Math.Abs(nbr) * 2 + 1;
+            else nbr *= 2;
+            return nbr;
         }
 
+        public static int ParseRegister(string codeline, int part)
+        {
+            string[] ss = codeline.Split(' ', ',');
+            if (ss.Length < part) return INVALID_VALUE_INT;   //  throw new IndexOutOfRangeException("Part does not exist");
 
+            string s = ss[part - 1].ToUpper();
+            if (!s.StartsWith("R")) return INVALID_VALUE_INT;
+
+            int reg = INVALID_VALUE_INT;
+            int.TryParse(s.Substring(1), out reg);
+            return reg;
+        }
     }
 }

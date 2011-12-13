@@ -1,13 +1,13 @@
 ﻿using ch.zhaw.HenselerGroup.CPU;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.IO;
 
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
 using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace TestCPUEngine
 {
-
     /// <summary>
     ///This is a test class for CPUTest and is intended
     ///to contain all CPUTest Unit Tests
@@ -16,12 +16,11 @@ namespace TestCPUEngine
     public class CPUTest
     {
         IMemory mem = null;
-        CPU cpu = null;
         private TestContext testContextInstance;
 
         /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
+        /// Gets or sets the test context which provides
+        /// information about and functionality for the current test run.
         ///</summary>
         public TestContext TestContext
         {
@@ -38,7 +37,6 @@ namespace TestCPUEngine
         #region Additional test attributes
 
         //You can use the following additional attributes as you write your tests:
-        //
         //Use ClassInitialize to run code before running the first test in the class
         [ClassInitialize()]
         public static void MyClassInitialize(TestContext testContext)
@@ -87,11 +85,126 @@ namespace TestCPUEngine
             int startAddress = 0; // TODO: Initialize to an appropriate value
             target.LoadMemory(codelines, startAddress);
 
+            Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);  // ADD R1
+            Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);  // ADD 500
+            Assert.AreNotEqual(0, target.Memory.GetWord(4).UValue);  // ADD R2
+            Assert.AreEqual(0, target.Memory.GetWord(6).UValue);
+        }
+
+        /// <summary>
+        /// Test FileNotFoundException
+        ///</summary>
+        [TestMethod()]
+        public void ReadPgmTestFileNotFound()
+        {
+            CPU target = new CPU();
+            string fullFilename = "FileNotExist.cpu";
+            string[] actual;
+            try
+            {
+                actual = target.ReadPgm(fullFilename);
+                Assert.Fail("fileNotFoundException exptected");
+            }
+            catch (FileNotFoundException)
+            {
+                Assert.IsTrue(true);
+            }
+        }
+
+        /// <summary>
+        /// Test Extention not Supported
+        ///</summary>
+        [TestMethod()]
+        public void ReadPgmTestFileExtNotSupported()
+        {
+            CPU target = new CPU();
+            string fullFilename = "FileNotExist.txt";
+            string[] actual;
+            try
+            {
+                actual = target.ReadPgm(fullFilename);
+                Assert.Fail("FileExtention not supported");
+            }
+            catch (CPUException)
+            {
+                Assert.IsTrue(true);
+            }
+        }
+
+
+
+        /// <summary>
+        ///A Add test
+        ///</summary>
+        [TestMethod()]
+        public void AddNegNumTest()
+        {
+            CPU target = new CPU();
+            string[] codelines = new string[] {
+                "LOAD R0,-500",
+                "ADD 250"
+            };
+            int startAddress = 0; 
+            target.LoadMemory(codelines, startAddress);
+
             Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);
             Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);
-            Assert.AreNotEqual(0, target.Memory.GetWord(4).UValue);
+            Assert.AreEqual(0, target.Memory.GetWord(4).UValue); 
+
+            target.Run(startAddress);
+            Assert.AreEqual(-250, target.GetRegisterValue(0));
+        }
 
 
+        /// <summary>
+        ///A Add test
+        ///</summary>
+        [TestMethod()]
+        public void AddNumTest()
+        {
+            CPU target = new CPU();
+            string[] codelines = new string[] {
+                "LOAD R0,500",
+                "ADD 250"
+            };
+            int startAddress = 0;
+            target.LoadMemory(codelines, startAddress);
+
+            Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);
+            Assert.AreNotEqual(0, target.Memory.GetWord(2).UValue);
+            Assert.AreEqual(0, target.Memory.GetWord(4).UValue);
+
+            target.Run(startAddress);
+            Assert.AreEqual(750, target.GetRegisterValue(0));
+        }
+
+
+        /// <summary>
+        /// Add a Large Number test
+        ///</summary>
+        [TestMethod()]
+        public void AddLargeNumTest()
+        {
+            CPU target = new CPU();
+            string[] codelines = new string[] {
+                // 2000 + 100*250
+                "LOAD R0,2000",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250",
+                "ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250","ADD 250"
+            };
+            int startAddress = 0;
+            target.LoadMemory(codelines, startAddress);
+
+            target.Run(startAddress);
+            Assert.AreEqual(27000, target.GetRegisterValue(0));
         }
     }
 }

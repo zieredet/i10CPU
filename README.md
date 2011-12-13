@@ -16,5 +16,4 @@ Features
 
 * WPV
 * C#
-* Junit
 * Microsoft Visual Studio 2010

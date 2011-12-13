@@ -5,3 +5,10 @@ C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestC
 C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
 C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.dll
 C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\bin\Debug\TestCPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\bin\Debug\TestCPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.pdb

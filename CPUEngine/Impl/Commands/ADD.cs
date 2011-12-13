@@ -34,7 +34,6 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
             get { return "ADD"; }
         }
 
-
         public int CommandLength
         {
             get { return 2; }
@@ -68,6 +67,27 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         }
 
 
+        /// <summary>
+        /// Checks if opcode represents this command
+        /// </summary>
+        /// <param name="word">A word from the memory</param>
+        /// </param>
+        /// <returns>true if the word represents this command</returns>
+        public static bool CheckOpCode(Word word)
+        {
+
+            int result = word.UValue | 3072;
+
+            if (result == 3968)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public Instruction Decode()
         {
             if (errorWhileParsing) return new Instruction(0);  // Stop
@@ -85,9 +105,9 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
             int inst2 = 8192;
             inst2 += value;
             return new Instruction(inst2, orgCommand);
+
         }
-
-
+        
         public string[] Syntax
         {
             get { return new string[] { 
@@ -96,7 +116,6 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
                  }; 
             }
         }
-
 
         public string GetCommand()
         {

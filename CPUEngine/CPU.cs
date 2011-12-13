@@ -19,12 +19,24 @@ namespace ch.zhaw.HenselerGroup.CPU
         {
             mem = new MemoryBasic();
             mem.Init(Config.MEM_SIZE);
-
+           
             registerSet = new RegisterSet();
         }
 
+        /// <summary>
+        /// This method runs the program from specified start address
+        /// </summary>
+        /// <param name="startAddress">The Adress where the program starts</param>
         public void Run(int startAddress)
         {
+
+            for (int i = 0; i < 3; i++) // To-Do: Value 3 only for testing... 
+			{
+                ICommand command = CommandFactory.GetCommand(Memory.GetWord(startAddress));
+                command.Execute(mem, registerSet);
+                startAddress += command.CommandLength;
+			}     
+
         }
 
         public string[] ReadPgm(string fullFilename)

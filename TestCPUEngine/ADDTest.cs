@@ -5,9 +5,7 @@ using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 using ch.zhaw.HenselerGroup.CPU;
 
 namespace TestCPUEngine
-{
-    
-    
+{   
     /// <summary>
     ///This is a test class for ADDTest and is intended
     ///to contain all ADDTest Unit Tests
@@ -71,7 +69,7 @@ namespace TestCPUEngine
         [TestMethod()]
         public void DecodeTestAdd35()
         {
-            ADD target= new ADD(); 
+            ADD target= new ADD();
             target.Parse("ADD 35");
             Instruction expected = new Instruction(8262);
             Instruction actual;

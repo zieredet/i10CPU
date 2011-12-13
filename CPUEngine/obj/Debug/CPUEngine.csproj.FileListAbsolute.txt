@@ -9,3 +9,8 @@ C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\CPUEn
 C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\CPUEngine\obj\Debug\ResolveAssemblyReference.cache
 C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
 C:\FachHochSchule\Methoden der Programmierung\3S\50-Projekt-CPU\CPU\MdPCPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb

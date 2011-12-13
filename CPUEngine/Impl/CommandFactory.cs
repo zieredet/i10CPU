@@ -6,6 +6,7 @@ using System.Text;
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
 using ch.zhaw.HenselerGroup.CPU.Impl;
 using ch.zhaw.HenselerGroup.CPU.Impl.Commands;
+using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 
 namespace ch.zhaw.HenselerGroup.CPU.Impl
@@ -20,6 +21,13 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl
             if (codeLine.StartsWith("ADD ")) return new ADD();
             if (codeLine.StartsWith("LOAD ")) return new LOAD();
             //if (codeLine.StartsWith("SLA ")) return new SLA();
+
+            return null;
+        }
+
+        public static ICommand GetCommand(Word codeLine)
+        {
+            if(ADD.CheckOpCode(codeLine)) return new ADD(); 
 
             return null;
         }

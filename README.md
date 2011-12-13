@@ -14,6 +14,6 @@ i10 CPU
 Features
 --------
 
-* WPV
+* WPF
 * C#
 * Microsoft Visual Studio 2010

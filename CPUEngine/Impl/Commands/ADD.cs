@@ -76,7 +76,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         public static bool CheckOpCode(Word word)
         {
 
-            int result = word.UValue | 3072;
+            int result = word.UValue | 3072; 
 
             if (result == 3968)
             {

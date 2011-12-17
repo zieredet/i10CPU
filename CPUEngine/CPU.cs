@@ -35,6 +35,7 @@ namespace ch.zhaw.HenselerGroup.CPU
                 ICommand command = CommandFactory.GetCommand(Memory.GetWord(startAddress));
                 command.Execute(mem, registerSet);
                 startAddress += command.CommandLength;
+                    // Stefan has to fix this issue...
 			}     
 
         }

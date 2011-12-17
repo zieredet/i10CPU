@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ADDTest.cs" />
+    <Compile Include="CPUFactoryTest.cs" />
     <Compile Include="CPUTest.cs" />
     <Compile Include="MemoryBasicTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

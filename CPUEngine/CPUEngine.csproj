@@ -44,17 +44,20 @@
   <ItemGroup>
     <Compile Include="Config.cs" />
     <Compile Include="CPUException.cs" />
+    <Compile Include="CPUMock.cs" />
     <Compile Include="Impl\Commands\CommandBase.cs" />
     <Compile Include="Impl\Commands\ADD.cs" />
     <Compile Include="Impl\CommandFactory.cs" />
     <Compile Include="CPU.cs" />
     <Compile Include="Impl\Commands\LOAD.cs" />
     <Compile Include="Impl\Commands\MOVE.cs" />
+    <Compile Include="CPUFactory.cs" />
     <Compile Include="Impl\MemoryFactory.cs" />
     <Compile Include="Impl\Memory\Instruction.cs" />
     <Compile Include="Impl\Memory\Number.cs" />
     <Compile Include="Impl\Memory\Word.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\ICPU.cs" />
     <Compile Include="Interfaces\IMemory.cs" />
     <Compile Include="Impl\Memory\MemoryBasic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

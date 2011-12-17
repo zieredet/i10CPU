@@ -5,6 +5,7 @@ using System.IO;
 
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
 using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
+using ch.zhaw.HenselerGroup.CPU.Impl;
 
 namespace TestCPUEngine
 {

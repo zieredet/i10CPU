@@ -9,13 +9,13 @@ using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace ch.zhaw.HenselerGroup.CPU
 {
-    public class CPU
+    public class CPU : ICPU
     {
         private IMemory mem = null;
         private RegisterSet registerSet = null;
 
 
-        public CPU()
+        public CPU() 
         {
             mem = new MemoryBasic();
             mem.Init(Config.MEM_SIZE);

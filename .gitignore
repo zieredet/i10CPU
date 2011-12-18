@@ -26,3 +26,7 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+
+CPUEngine/obj/Debug/ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+MdPCPU/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+CPUEngine/bin/Debug/ch.zhaw.HenselerGroup.CPU.CPUEngine.dll

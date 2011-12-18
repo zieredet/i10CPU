@@ -80,5 +80,19 @@ namespace ch.zhaw.HenselerGroup.CPU
         {
             return registerSet.GetRegisterUVal(registerNr);
         }
+
+        public void RunStep(int startAddress)
+        {
+            // TO-DO: Step Mode not yet supported
+            throw new NotImplementedException();
+        }
+
+
+        public void RunFast(int startAddress)
+        {
+            // TO-DO: Step Mode not yet supported
+            throw new NotImplementedException();
+        }
+
     }
 }

@@ -1,7 +1,7 @@
-﻿using ch.zhaw.HenselerGroup.CPU;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
+using ch.zhaw.HenselerGroup.CPU;
 
 namespace TestCPUEngine
 {   
@@ -65,7 +65,7 @@ namespace TestCPUEngine
         /// Test GetCPU "Easy"
         ///</summary>
         [TestMethod()]
-        public void GetCPUTest()
+        public void GetCPUTestEasy()
         {
             string cpuName = CPUFactory.CPU_EASY;
             ICPU expected = new CPU();
@@ -79,10 +79,10 @@ namespace TestCPUEngine
         /// Test GetCPU "Mock"
         ///</summary>
         [TestMethod()]
-        public void GetCPUTest()
+        public void GetCPUTestMock()
         {
             string cpuName = CPUFactory.CPU_MOCK;
-            ICPU expected = new CPUMock();
+            ICPU expected = new ch.zhaw.HenselerGroup.CPU.CPUMock();
             ICPU actual;
             actual = CPUFactory.GetCPU(cpuName);
             Assert.AreEqual(expected, actual);

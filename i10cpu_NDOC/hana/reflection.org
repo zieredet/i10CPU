@@ -1,0 +1,3707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="ch.zhaw.HenselerGroup.CPU.CPUEngine">
+      <assemblydata version="1.0.0.0" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value />
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CPUEngine</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Copyright ©  2011</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTrademarkAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value />
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value />
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyConfigurationAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value />
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1328d40e-c967-422d-8b80-e4b35b160cfa</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CPUEngine</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0.0</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:ch.zhaw.HenselerGroup.CPU">
+      <apidata name="ch.zhaw.HenselerGroup.CPU" group="namespace" />
+      <elements>
+        <element api="T:ch.zhaw.HenselerGroup.CPU.CPU" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.CPUException" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Config" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.CPUFactory" />
+      </elements>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Config">
+      <apidata name="Config" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:ch.zhaw.HenselerGroup.CPU.Config.MEM_SIZE" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Config.#ctor" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Config.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Config" ref="true" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.Config.MEM_SIZE">
+      <apidata name="MEM_SIZE" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Config" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.CPU">
+      <apidata name="CPU" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPU.#ctor" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPU.Run(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPU.ReadPgm(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPU.LoadMemory(System.String[],System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPU.GetRegisterValue(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPU.GetRegisterUValue(System.Int32)" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.CPU.Memory" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPU.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPU.GetRegisterUValue(System.Int32)">
+      <apidata name="GetRegisterUValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="registerNr">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterUValue(System.Int32)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPU.GetRegisterValue(System.Int32)">
+      <apidata name="GetRegisterValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="registerNr">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterValue(System.Int32)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPU.LoadMemory(System.String[],System.Int32)">
+      <apidata name="LoadMemory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="codelines">
+          <arrayOf rank="1">
+            <type api="T:System.String" ref="true" />
+          </arrayOf>
+        </parameter>
+        <parameter name="startAddress">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.LoadMemory(System.String[],System.Int32)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.CPU.Memory">
+      <apidata name="Memory" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Memory" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Memory">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPU.ReadPgm(System.String)">
+      <apidata name="ReadPgm" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="fullFilename">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.ReadPgm(System.String)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPU.Run(System.Int32)">
+      <apidata name="Run" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="startAddress">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Run(System.Int32)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.CPUException">
+      <apidata name="CPUException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPUException.#ctor(System.String)" />
+        <element api="M:System.Exception.GetBaseException">
+          <apidata name="GetBaseException" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Exception" ref="true" />
+          </returns>
+          <implements>
+            <member api="M:System.Runtime.InteropServices._Exception.GetBaseException">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Exception.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <overrides>
+            <member api="M:System.Object.ToString">
+              <type api="T:System.Object" ref="true" />
+            </member>
+          </overrides>
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <implements>
+            <member api="M:System.Runtime.InteropServices._Exception.ToString">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <apidata name="GetObjectData" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="info">
+              <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+            </parameter>
+            <parameter name="context">
+              <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+            </parameter>
+          </parameters>
+          <implements>
+            <member api="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+              <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+            </member>
+            <member api="M:System.Runtime.InteropServices._Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+          <attributes>
+            <attribute>
+              <type api="T:System.Security.Permissions.SecurityPermissionAttribute" ref="true" />
+              <argument>
+                <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+                <enumValue>
+                  <field name="LinkDemand" />
+                </enumValue>
+              </argument>
+              <assignment name="Flags">
+                <type api="T:System.Security.Permissions.SecurityPermissionFlag" ref="false" />
+                <enumValue>
+                  <field name="SerializationFormatter" />
+                </enumValue>
+              </assignment>
+            </attribute>
+          </attributes>
+        </element>
+        <element api="M:System.Exception.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" final="true" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <implements>
+            <member api="M:System.Runtime.InteropServices._Exception.GetType">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.Message">
+          <apidata name="Message" group="member" subgroup="property" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <propertydata get="true" />
+          <getter name="get_Message" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <implements>
+            <member api="P:System.Runtime.InteropServices._Exception.Message">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.Data">
+          <apidata name="Data" group="member" subgroup="property" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <propertydata get="true" />
+          <getter name="get_Data" />
+          <returns>
+            <type api="T:System.Collections.IDictionary" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.InnerException">
+          <apidata name="InnerException" group="member" subgroup="property" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" final="true" />
+          <propertydata get="true" />
+          <getter name="get_InnerException" />
+          <returns>
+            <type api="T:System.Exception" ref="true" />
+          </returns>
+          <implements>
+            <member api="P:System.Runtime.InteropServices._Exception.InnerException">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.TargetSite">
+          <apidata name="TargetSite" group="member" subgroup="property" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" final="true" />
+          <propertydata get="true" />
+          <getter name="get_TargetSite" />
+          <returns>
+            <type api="T:System.Reflection.MethodBase" ref="true" />
+          </returns>
+          <implements>
+            <member api="P:System.Runtime.InteropServices._Exception.TargetSite">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.StackTrace">
+          <apidata name="StackTrace" group="member" subgroup="property" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <propertydata get="true" />
+          <getter name="get_StackTrace" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <implements>
+            <member api="P:System.Runtime.InteropServices._Exception.StackTrace">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.HelpLink">
+          <apidata name="HelpLink" group="member" subgroup="property" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <propertydata get="true" set="true" />
+          <getter name="get_HelpLink" />
+          <setter name="set_HelpLink" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <implements>
+            <member api="P:System.Runtime.InteropServices._Exception.HelpLink">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.Source">
+          <apidata name="Source" group="member" subgroup="property" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <propertydata get="true" set="true" />
+          <getter name="get_Source" />
+          <setter name="set_Source" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <implements>
+            <member api="P:System.Runtime.InteropServices._Exception.Source">
+              <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+            </member>
+          </implements>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="P:System.Exception.HResult">
+          <apidata name="HResult" group="member" subgroup="property" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <propertydata get="true" set="true" />
+          <getter name="get_HResult" />
+          <setter name="set_HResult" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Exception" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPUException.#ctor(System.String)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPUException" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.CPUFactory">
+      <apidata name="CPUFactory" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:ch.zhaw.HenselerGroup.CPU.CPUFactory.CPU_EASY" />
+        <element api="F:ch.zhaw.HenselerGroup.CPU.CPUFactory.CPU_MOCK" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPUFactory.GetCPU(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.CPUFactory.#ctor" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPUFactory.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPUFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.CPUFactory.CPU_EASY">
+      <apidata name="CPU_EASY" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPUFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.CPUFactory.CPU_MOCK">
+      <apidata name="CPU_MOCK" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPUFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.CPUFactory.GetCPU(System.String)">
+      <apidata name="GetCPU" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="cpuName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPUFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.RegisterSet">
+      <apidata name="RegisterSet" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:ch.zhaw.HenselerGroup.CPU.RegisterSet.LastRegisterNr" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.MemValToSignedInt(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.SignedIntToMemVal(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.GetRegisterVal(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.SetRegisterVal(System.Int32,System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.GetRegisterUVal(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.#ctor" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.Accu" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R1" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R2" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R3" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R4" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.Accu">
+      <apidata name="Accu" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Accu" />
+      <setter name="set_Accu" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.GetRegisterUVal(System.Int32)">
+      <apidata name="GetRegisterUVal" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="registerNr">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.GetRegisterVal(System.Int32)">
+      <apidata name="GetRegisterVal" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="registerNr">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.RegisterSet.LastRegisterNr">
+      <apidata name="LastRegisterNr" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.MemValToSignedInt(System.Int32)">
+      <apidata name="MemValToSignedInt" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="uvalue">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R1">
+      <apidata name="R1" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_R1" />
+      <setter name="set_R1" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R2">
+      <apidata name="R2" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_R2" />
+      <setter name="set_R2" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R3">
+      <apidata name="R3" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_R3" />
+      <setter name="set_R3" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R4">
+      <apidata name="R4" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_R4" />
+      <setter name="set_R4" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.SetRegisterVal(System.Int32,System.Int32)">
+      <apidata name="SetRegisterVal" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="registerNr">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.SignedIntToMemVal(System.Int32)">
+      <apidata name="SignedIntToMemVal" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="value">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+      </containers>
+    </api>
+    <api id="N:ch.zhaw.HenselerGroup.CPU.Impl">
+      <apidata name="ch.zhaw.HenselerGroup.CPU.Impl" group="namespace" />
+      <elements>
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory" />
+      </elements>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory">
+      <apidata name="CommandFactory" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.GetCommand(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.GetCommand(ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.#ctor" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.GetCommand(ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)">
+      <apidata name="GetCommand" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="codeLine">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.GetCommand(System.String)">
+      <apidata name="GetCommand" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="codeLine">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory">
+      <apidata name="eMemory" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" layout="auto" format="ansi" />
+      <elements>
+        <element api="F:ch.zhaw.HenselerGroup.CPU.Impl.eMemory.BasicMemory" />
+        <element api="F:ch.zhaw.HenselerGroup.CPU.Impl.eMemory.CachedMemory" />
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.Impl.eMemory.BasicMemory">
+      <apidata name="BasicMemory" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory" ref="false" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.Impl.eMemory.CachedMemory">
+      <apidata name="CachedMemory" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory" ref="false" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory">
+      <apidata name="MemoryFactory" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory.GetInstance(ch.zhaw.HenselerGroup.CPU.Impl.eMemory)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory.#ctor" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory.GetInstance(ch.zhaw.HenselerGroup.CPU.Impl.eMemory)">
+      <apidata name="GetInstance" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="memoryType">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory" ref="true" />
+      </containers>
+    </api>
+    <api id="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands">
+      <apidata name="ch.zhaw.HenselerGroup.CPU.Impl.Commands" group="namespace" />
+      <elements>
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" />
+      </elements>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD">
+      <apidata name="ADD" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Parse(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.CheckOpCode(ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Decode" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.GetCommand" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.#ctor" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Name" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.CommandLength" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Syntax" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.CheckOpCode(ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)">
+      <apidata name="CheckOpCode" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="word">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.CommandLength">
+      <apidata name="CommandLength" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_CommandLength" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.CommandLength">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Decode">
+      <apidata name="Decode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Decode">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+      <apidata name="Execute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="mem">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </parameter>
+        <parameter name="registerSet">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.GetCommand">
+      <apidata name="GetCommand" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.GetCommand">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Name">
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Name">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Parse(System.String)">
+      <apidata name="Parse" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="opcode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Parse(System.String)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Syntax">
+      <apidata name="Syntax" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Syntax" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Syntax">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase">
+      <apidata name="CommandBase" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.INVALID_VALUE_INT" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Decode(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.ParseNumber(System.String,System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.ParseRegister(System.String,System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.#ctor" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.CommandLength" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Name" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.CommandLength">
+      <apidata name="CommandLength" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_CommandLength" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Decode(System.String)">
+      <apidata name="Decode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="opcode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+      <apidata name="Execute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="mem">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </parameter>
+        <parameter name="registerSet">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.INVALID_VALUE_INT">
+      <apidata name="INVALID_VALUE_INT" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Name">
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.ParseNumber(System.String,System.Int32)">
+      <apidata name="ParseNumber" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="codeline">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="part">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.ParseRegister(System.String,System.Int32)">
+      <apidata name="ParseRegister" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="codeline">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="part">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD">
+      <apidata name="LOAD" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Decode" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Parse(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.GetCommand" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.#ctor" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Name" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.CommandLength" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Syntax" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.CommandLength">
+      <apidata name="CommandLength" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_CommandLength" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.CommandLength">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Decode">
+      <apidata name="Decode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Decode">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+      <apidata name="Execute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="mem">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </parameter>
+        <parameter name="registerSet">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.GetCommand">
+      <apidata name="GetCommand" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.GetCommand">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Name">
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Name">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Parse(System.String)">
+      <apidata name="Parse" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="opcode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Parse(System.String)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Syntax">
+      <apidata name="Syntax" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Syntax" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Syntax">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE">
+      <apidata name="MOVE" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Decode" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Parse(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.ch#zhaw#HenselerGroup#CPU#Interfaces#ICommand#Parse(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.GetCommand" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.#ctor" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Name" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.CommandLength" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Syntax" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.ch#zhaw#HenselerGroup#CPU#Interfaces#ICommand#Parse(System.String)">
+      <apidata name="Parse" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <parameters>
+        <parameter name="opcode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Parse(System.String)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.CommandLength">
+      <apidata name="CommandLength" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_CommandLength" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.CommandLength">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Decode">
+      <apidata name="Decode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Decode">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+      <apidata name="Execute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="mem">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </parameter>
+        <parameter name="registerSet">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.GetCommand">
+      <apidata name="GetCommand" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.GetCommand">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Name">
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Name">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Parse(System.String)">
+      <apidata name="Parse" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="opcode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Syntax">
+      <apidata name="Syntax" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Syntax" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Syntax">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </containers>
+    </api>
+    <api id="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory">
+      <apidata name="ch.zhaw.HenselerGroup.CPU.Impl.Memory" group="namespace" />
+      <elements>
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" />
+      </elements>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction">
+      <apidata name="Instruction" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor(System.Int32,System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.Equals(System.Object)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.GetHashCode" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.ToString" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.InstructionCode" />
+        <element api="F:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.memValue" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.UValue" />
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor(System.Int32)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="value">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor(System.Int32,System.String)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="value">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="opcode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.Equals(System.Object)">
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.Equals(System.Object)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.GetHashCode">
+      <apidata name="GetHashCode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.GetHashCode">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.InstructionCode">
+      <apidata name="InstructionCode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_InstructionCode" />
+      <setter name="set_InstructionCode" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.ToString">
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.ToString">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic">
+      <apidata name="MemoryBasic" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.Init(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.GetWord(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetInstruction(System.Int32,System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetInstruction(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetWord(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetWord(System.Int32,System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.#ctor" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.GetWord(System.Int32)">
+      <apidata name="GetWord" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.GetWord(System.Int32)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.Init(System.Int32)">
+      <apidata name="Init" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="size">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.Init(System.Int32)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetInstruction(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction)">
+      <apidata name="SetInstruction" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="instruction">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetInstruction(System.Int32,System.Int32)">
+      <apidata name="SetInstruction" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="instuction">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,System.Int32)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetWord(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)">
+      <apidata name="SetWord" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="word">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetWord(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetWord(System.Int32,System.Int32)">
+      <apidata name="SetWord" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="uvalue">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number">
+      <apidata name="Number" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.#ctor" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.Sign" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.Value" />
+        <element api="F:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.memValue" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.Equals(System.Object)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.GetHashCode" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.UValue" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.Sign">
+      <apidata name="Sign" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Sign" />
+      <setter name="set_Sign" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.Value">
+      <apidata name="Value" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Value" />
+      <setter name="set_Value" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word">
+      <apidata name="Word" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+        <descendents>
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" ref="true" />
+        </descendents>
+      </family>
+      <elements>
+        <element api="F:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.memValue" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor(System.Int32,System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.Equals(System.Object)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.GetHashCode" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.UValue" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor(System.Int32)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="memValue">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor(System.Int32,System.Int32)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="highByte">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="lowByte">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.Equals(System.Object)">
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Equals(System.Object)">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.GetHashCode">
+      <apidata name="GetHashCode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.GetHashCode">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </containers>
+    </api>
+    <api id="F:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.memValue">
+      <apidata name="memValue" group="member" subgroup="field" />
+      <memberdata visibility="family" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.UValue">
+      <apidata name="UValue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_UValue" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </containers>
+    </api>
+    <api id="N:ch.zhaw.HenselerGroup.CPU.Interfaces">
+      <apidata name="ch.zhaw.HenselerGroup.CPU.Interfaces" group="namespace" />
+      <elements>
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" />
+        <element api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" />
+      </elements>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand">
+      <apidata name="ICommand" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" layout="auto" format="ansi" />
+      <implementors>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" ref="true" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" ref="true" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Decode" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Parse(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.GetCommand" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Name" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.CommandLength" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Syntax" />
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.CommandLength">
+      <apidata name="CommandLength" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_CommandLength" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Decode">
+      <apidata name="Decode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+      <apidata name="Execute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="mem">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+        </parameter>
+        <parameter name="registerSet">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.GetCommand">
+      <apidata name="GetCommand" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Name">
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Parse(System.String)">
+      <apidata name="Parse" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="opcode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Syntax">
+      <apidata name="Syntax" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Syntax" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU">
+      <apidata name="ICPU" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" layout="auto" format="ansi" />
+      <implementors>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.CPU" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.ReadPgm(System.String)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.LoadMemory(System.String[],System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Run(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterValue(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterUValue(System.Int32)" />
+        <element api="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Memory" />
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterUValue(System.Int32)">
+      <apidata name="GetRegisterUValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="registerNr">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterValue(System.Int32)">
+      <apidata name="GetRegisterValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="registerNr">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.LoadMemory(System.String[],System.Int32)">
+      <apidata name="LoadMemory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="codelines">
+          <arrayOf rank="1">
+            <type api="T:System.String" ref="true" />
+          </arrayOf>
+        </parameter>
+        <parameter name="startAddress">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </containers>
+    </api>
+    <api id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Memory">
+      <apidata name="Memory" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Memory" />
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.ReadPgm(System.String)">
+      <apidata name="ReadPgm" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="fullFilename">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Run(System.Int32)">
+      <apidata name="Run" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="startAddress">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" ref="true" />
+      </containers>
+    </api>
+    <api id="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory">
+      <apidata name="IMemory" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" layout="auto" format="ansi" />
+      <implementors>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.Init(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.GetWord(System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetWord(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,System.Int32)" />
+        <element api="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction)" />
+      </elements>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.GetWord(System.Int32)">
+      <apidata name="GetWord" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.Init(System.Int32)">
+      <apidata name="Init" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="size">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction)">
+      <apidata name="SetInstruction" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="instruction">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,System.Int32)">
+      <apidata name="SetInstruction" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="instuction">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </containers>
+    </api>
+    <api id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetWord(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)">
+      <apidata name="SetWord" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="word">
+          <type api="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ch.zhaw.HenselerGroup.CPU.CPUEngine" module="ch.zhaw.HenselerGroup.CPU.CPUEngine" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:ch.zhaw.HenselerGroup.CPU.Interfaces" />
+        <type api="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

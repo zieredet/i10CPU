@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpTOC SYSTEM "MS-Help://Hx/Resources/HelpTOC.dtd">
+<HelpTOC DTDVersion="1.0">
+  <HelpTOCNode Url="html\N_ch_zhaw_HenselerGroup_CPU.htm">
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Config.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Config_ctor.htm" />
+      <HelpTOCNode Url="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Config.htm">
+        <HelpTOCNode Url="html\F_ch_zhaw_HenselerGroup_CPU_Config_MEM_SIZE.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Config.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_CPU.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_CPU_ctor.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_CPU.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_CPU_GetRegisterUValue_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_CPU_GetRegisterValue_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_CPU_LoadMemory_2_8c5f5448.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_CPU_ReadPgm_1_bb3a7a4f.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_CPU_Run_1_e1836fc4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_CPU.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_CPU_Memory.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_CPUException.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_CPUException_ctor_1_362212bd.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_CPUException.htm" />
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_CPUException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_CPUFactory.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_CPUFactory_ctor.htm" />
+      <HelpTOCNode Url="html\Fields_T_ch_zhaw_HenselerGroup_CPU_CPUFactory.htm">
+        <HelpTOCNode Url="html\F_ch_zhaw_HenselerGroup_CPU_CPUFactory_CPU_EASY.htm" />
+        <HelpTOCNode Url="html\F_ch_zhaw_HenselerGroup_CPU_CPUFactory_CPU_MOCK.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_CPUFactory.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_CPUFactory_GetCPU_1_bb3a7a4f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_RegisterSet_ctor.htm" />
+      <HelpTOCNode Url="html\Fields_T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+        <HelpTOCNode Url="html\F_ch_zhaw_HenselerGroup_CPU_RegisterSet_LastRegisterNr.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_GetRegisterUVal_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_GetRegisterVal_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_MemValToSignedInt_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_SetRegisterVal_2_22dcb54d.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_SignedIntToMemVal_1_e1836fc4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_Accu.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R1.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R2.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R3.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Url="html\N_ch_zhaw_HenselerGroup_CPU_Impl.htm">
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_ctor.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory.htm">
+        <HelpTOCNode Url="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand.htm">
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand_1_bb3a7a4f.htm" />
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand_1_2b04e28c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_eMemory.htm" />
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory_ctor.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory_GetInstance_1_9d9f5177.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Url="html\N_ch_zhaw_HenselerGroup_CPU_Impl_Commands.htm">
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_ctor.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_CheckOpCode_1_2b04e28c.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Decode.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Execute_2_c4ed4016.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_GetCommand.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Parse_1_bb3a7a4f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_CommandLength.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Name.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Syntax.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ctor.htm" />
+      <HelpTOCNode Url="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+        <HelpTOCNode Url="html\F_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_INVALID_VALUE_INT.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Decode_1_bb3a7a4f.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Execute_2_c4ed4016.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ParseNumber_2_90454198.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ParseRegister_2_90454198.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_CommandLength.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_ctor.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Decode.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Execute_2_c4ed4016.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_GetCommand.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Parse_1_bb3a7a4f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_CommandLength.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Name.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Syntax.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_ctor.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Decode.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Execute_2_c4ed4016.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_GetCommand.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Parse_1_bb3a7a4f.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Parse_1_bb3a7a4f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_CommandLength.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Name.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Syntax.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Url="html\N_ch_zhaw_HenselerGroup_CPU_Impl_Memory.htm">
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm">
+      <HelpTOCNode Url="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor.htm">
+        <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor.htm" />
+        <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor_1_25c8efd2.htm" />
+        <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor_2_d00b1a0a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_Equals_1_d02429b3.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_GetHashCode.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_InstructionCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_ctor.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_GetWord_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_Init_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction.htm">
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction_2_a18a18a1.htm" />
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction_2_22dcb54d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Url="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord.htm">
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord_2_d3b55887.htm" />
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord_2_22dcb54d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm">
+      <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_ctor.htm" />
+      <HelpTOCNode Url="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm" />
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm" />
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_Sign.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+      <HelpTOCNode Url="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor.htm">
+        <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor.htm" />
+        <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor_1_25c8efd2.htm" />
+        <HelpTOCNode Url="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor_2_a88b0353.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+        <HelpTOCNode Url="html\F_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_memValue.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_Equals_1_d02429b3.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_GetHashCode.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_UValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Url="html\N_ch_zhaw_HenselerGroup_CPU_Interfaces.htm">
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand.htm">
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Decode.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Execute_2_c4ed4016.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_GetCommand.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Parse_1_bb3a7a4f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_CommandLength.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Name.htm" />
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Syntax.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU.htm">
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_GetRegisterUValue_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_GetRegisterValue_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_LoadMemory_2_8c5f5448.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_ReadPgm_1_bb3a7a4f.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_Run_1_e1836fc4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Url="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU.htm">
+        <HelpTOCNode Url="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_Memory.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Url="html\T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory.htm">
+      <HelpTOCNode Url="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory.htm">
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_GetWord_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_Init_1_e1836fc4.htm" />
+        <HelpTOCNode Url="html\O_T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction.htm">
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction_2_a18a18a1.htm" />
+          <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction_2_22dcb54d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Url="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetWord_2_d3b55887.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -14,7 +14,7 @@ namespace ch.zhaw.HenselerGroup.CPU
         public static ICPU GetCPU(string cpuName)
         {
             if (cpuName == CPU_EASY) return new CPU();
-            if (cpuName == CPU_MOCK) return null;
+            if (cpuName == CPU_MOCK) return new CPUMock();
             return null;
         }
     }

@@ -83,7 +83,7 @@ namespace TestCPUEngine
                 "ADD 500",
                 "ADD R2"
             };
-            int startAddress = 0; // TODO: Initialize to an appropriate value
+            int startAddress = 0; 
             target.LoadMemory(codelines, startAddress);
 
             Assert.AreNotEqual(0, target.Memory.GetWord(0).UValue);  // ADD R1

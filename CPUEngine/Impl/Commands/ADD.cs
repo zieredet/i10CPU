@@ -7,6 +7,9 @@ using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
 {
+    /// <summary>
+    /// ADD: add a number or register to Accu
+    /// </summary>
     public class ADD : ICommand
     {
         private int register = -1;

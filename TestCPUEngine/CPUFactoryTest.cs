@@ -65,13 +65,11 @@ namespace TestCPUEngine
         /// Test GetCPU "Easy"
         ///</summary>
         [TestMethod()]
-        public void GetCPUTest()
+        public void GetCPUTestEasy()
         {
             string cpuName = CPUFactory.CPU_EASY;
-            ICPU expected = new CPU();
-            ICPU actual;
-            actual = CPUFactory.GetCPU(cpuName);
-            Assert.AreEqual(expected, actual);
+            ICPU actual= CPUFactory.GetCPU(cpuName);
+            Assert.IsTrue( actual is CPU, "wrong class. Expect CPU");
         }
 
 
@@ -79,13 +77,11 @@ namespace TestCPUEngine
         /// Test GetCPU "Mock"
         ///</summary>
         [TestMethod()]
-        public void GetCPUTest()
+        public void GetCPUTestMock()
         {
             string cpuName = CPUFactory.CPU_MOCK;
-            ICPU expected = new CPUMock();
-            ICPU actual;
-            actual = CPUFactory.GetCPU(cpuName);
-            Assert.AreEqual(expected, actual);
+            ICPU actual= CPUFactory.GetCPU(cpuName);
+            Assert.IsTrue(actual is CPUMock, "wrong class. Expect CPUMock");
         }
     }
 }

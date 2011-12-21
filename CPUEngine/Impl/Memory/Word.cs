@@ -5,6 +5,10 @@ using System.Text;
 
 namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
 {
+    /// <summary>
+    /// Base Class for a Memory Item. 
+    /// Memory stores just Word with 2Bytes 
+    /// </summary>
     public class Word
     {
         protected int memValue;
@@ -17,6 +21,9 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
             this.memValue = memValue;
         }
 
+        /// <summary>
+        /// returns the effektiv value stored
+        /// </summary>
         public int UValue { get { return memValue; } }
 
         public Word(int highByte, int lowByte)
@@ -25,6 +32,9 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
             memValue = (highByte % 256) * 256 + (lowByte % 256);
         }
 
+        /// <summary>
+        /// compaires 2 Words
+        /// </summary>
         public override bool Equals(object obj)
         {
             if (!(obj is Word)) return false;
@@ -38,5 +48,4 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
             return UValue;
         }
     }
-
 }

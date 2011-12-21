@@ -1,12 +1,15 @@
-﻿using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+
+using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
 
 namespace TestCPUEngine
 {
-    
-    
+
+
     /// <summary>
     ///This is a test class for MemoryBasicTest and is intended
     ///to contain all MemoryBasicTest Unit Tests
@@ -71,11 +74,11 @@ namespace TestCPUEngine
         [TestMethod()]
         public void SetWordTest()
         {
-            MemoryBasic target = new MemoryBasic(); 
+            MemoryBasic target = new MemoryBasic();
             target.Init(16);
-            int address = 10; 
-            
-            Word expected= new Word(0,10);
+            int address = 10;
+
+            Word expected = new Word(0, 10);
             target.SetWord(address, expected);
             Word current = target.GetWord(address);
             Assert.AreEqual(current.UValue, expected.UValue);
@@ -87,15 +90,39 @@ namespace TestCPUEngine
         [TestMethod()]
         public void GetWordTest()
         {
-            
+
             MemoryBasic mem = new MemoryBasic();
             mem.Init(10);
             int address = 4;
-            Word expected = new Word(0,100);
+            Word expected = new Word(0, 100);
             Word actual;
             mem.SetWord(address, expected);
             actual = mem.GetWord(address);
             Assert.AreEqual(expected, actual);
+        }
+
+
+        /// <summary>
+        ///A test for GetWordEnumerator
+        ///</summary>
+        [TestMethod()]
+        public void GetWordEnumeratorTest()
+        {
+            IMemory target = new MemoryBasic();
+            target.Init(10);
+
+            IEnumerator<Word> actual = target.GetEnumerator();
+            int i = 0;
+
+            Word w = null;
+            actual.Reset();
+            while (actual.MoveNext())
+            {
+                w = actual.Current;
+                i++;
+            }
+            
+            Assert.AreEqual(i,5);
         }
     }
 }

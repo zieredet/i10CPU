@@ -9,17 +9,23 @@ using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 
 namespace ch.zhaw.HenselerGroup.CPU
 {
+
+    /// <summary>
+    /// Implements a simple CPU with just a few commands.
+    /// It's used as a proove of concept CPU for the first 3 itreration.
+    /// Later we will implement more commands (4th iteration).
+    /// </summary>
     public class CPU : ICPU
     {
         private IMemory mem = null;
         private RegisterSet registerSet = null;
 
 
-        public CPU() 
+        public CPU()
         {
             mem = new MemoryBasic();
             mem.Init(Config.MEM_SIZE);
-           
+
             registerSet = new RegisterSet();
         }
 
@@ -31,12 +37,13 @@ namespace ch.zhaw.HenselerGroup.CPU
         {
 
             for (int i = 0; i < 3; i++) // To-Do: Value 3 only for testing... 
-			{
+            {
                 ICommand command = CommandFactory.GetCommand(Memory.GetWord(startAddress));
+                if (command == null) return;
+
                 command.Execute(mem, registerSet);
                 startAddress += command.CommandLength;
-                    // Stefan has to fix this issue...
-			}     
+            }
 
         }
 

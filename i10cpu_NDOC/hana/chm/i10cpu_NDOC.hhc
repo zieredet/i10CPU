@@ -1,0 +1,1049 @@
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML/EN">
+<HTML>
+  <BODY>
+
+<UL>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="ch.zhaw.HenselerGroup.CPU Namespace">
+    <param name="Local" value="html\N_ch_zhaw_HenselerGroup_CPU.htm">
+  </OBJECT></LI>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Config Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Config.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Config Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Config_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Config Fields">
+        <param name="Local" value="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Config.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MEM_SIZE Field">
+          <param name="Local" value="html\F_ch_zhaw_HenselerGroup_CPU_Config_MEM_SIZE.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Config Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Config.htm">
+      </OBJECT></LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CPU Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_CPU.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPU Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_CPU_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPU Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_CPU.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetRegisterUValue Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_CPU_GetRegisterUValue_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetRegisterValue Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_CPU_GetRegisterValue_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="LoadMemory Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_CPU_LoadMemory_2_8c5f5448.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ReadPgm Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_CPU_ReadPgm_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Run Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_CPU_Run_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPU Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_CPU.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Memory Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_CPU_Memory.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CPUException Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_CPUException.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPUException Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_CPUException_ctor_1_362212bd.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPUException Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_CPUException.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPUException Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_CPUException.htm">
+      </OBJECT></LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CPUFactory Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_CPUFactory.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPUFactory Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_CPUFactory_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPUFactory Fields">
+        <param name="Local" value="html\Fields_T_ch_zhaw_HenselerGroup_CPU_CPUFactory.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CPU_EASY Field">
+          <param name="Local" value="html\F_ch_zhaw_HenselerGroup_CPU_CPUFactory_CPU_EASY.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CPU_MOCK Field">
+          <param name="Local" value="html\F_ch_zhaw_HenselerGroup_CPU_CPUFactory_CPU_MOCK.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CPUFactory Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_CPUFactory.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetCPU Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_CPUFactory_GetCPU_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="RegisterSet Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="RegisterSet Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_RegisterSet_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="RegisterSet Fields">
+        <param name="Local" value="html\Fields_T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="LastRegisterNr Field">
+          <param name="Local" value="html\F_ch_zhaw_HenselerGroup_CPU_RegisterSet_LastRegisterNr.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="RegisterSet Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetRegisterUVal Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_GetRegisterUVal_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetRegisterVal Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_GetRegisterVal_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MemValToSignedInt Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_MemValToSignedInt_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SetRegisterVal Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_SetRegisterVal_2_22dcb54d.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SignedIntToMemVal Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_RegisterSet_SignedIntToMemVal_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="RegisterSet Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_RegisterSet.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Accu Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_Accu.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="R1 Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R1.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="R2 Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R2.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="R3 Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R3.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="R4 Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R4.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+<UL>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="ch.zhaw.HenselerGroup.CPU.Impl Namespace">
+    <param name="Local" value="html\N_ch_zhaw_HenselerGroup_CPU_Impl.htm">
+  </OBJECT></LI>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CommandFactory Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CommandFactory Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CommandFactory Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetCommand Method ">
+          <param name="Local" value="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetCommand Method (String)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand_1_bb3a7a4f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetCommand Method (Word)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand_1_2b04e28c.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="eMemory Enumeration">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_eMemory.htm">
+    </OBJECT></LI>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="MemoryFactory Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MemoryFactory Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MemoryFactory Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetInstance Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory_GetInstance_1_9d9f5177.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+<UL>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="ch.zhaw.HenselerGroup.CPU.Impl.Commands Namespace">
+    <param name="Local" value="html\N_ch_zhaw_HenselerGroup_CPU_Impl_Commands.htm">
+  </OBJECT></LI>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="ADD Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ADD Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ADD Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CheckOpCode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_CheckOpCode_1_2b04e28c.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Decode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Decode.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Execute Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Execute_2_c4ed4016.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetCommand Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_GetCommand.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Parse Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Parse_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ADD Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CommandLength Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_CommandLength.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Name Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Name.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Syntax Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Syntax.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CommandBase Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CommandBase Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CommandBase Fields">
+        <param name="Local" value="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="INVALID_VALUE_INT Field">
+          <param name="Local" value="html\F_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_INVALID_VALUE_INT.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CommandBase Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Decode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Decode_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Execute Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Execute_2_c4ed4016.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ParseNumber Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ParseNumber_2_90454198.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ParseRegister Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ParseRegister_2_90454198.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CommandBase Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CommandLength Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_CommandLength.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Name Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Name.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="LOAD Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="LOAD Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="LOAD Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Decode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Decode.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Execute Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Execute_2_c4ed4016.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetCommand Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_GetCommand.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Parse Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Parse_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="LOAD Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CommandLength Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_CommandLength.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Name Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Name.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Syntax Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Syntax.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="MOVE Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MOVE Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MOVE Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Decode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Decode.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Execute Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Execute_2_c4ed4016.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetCommand Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_GetCommand.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Parse Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Parse_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Parse Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Parse_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MOVE Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CommandLength Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_CommandLength.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Name Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Name.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Syntax Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Syntax.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+<UL>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="ch.zhaw.HenselerGroup.CPU.Impl.Memory Namespace">
+    <param name="Local" value="html\N_ch_zhaw_HenselerGroup_CPU_Impl_Memory.htm">
+  </OBJECT></LI>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Instruction Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Instruction Constructor ">
+        <param name="Local" value="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Instruction Constructor ">
+          <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Instruction Constructor (Int32)">
+          <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor_1_25c8efd2.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Instruction Constructor (Int32, String)">
+          <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor_2_d00b1a0a.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Instruction Fields">
+        <param name="Local" value="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Instruction Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Equals Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_Equals_1_d02429b3.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetHashCode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_GetHashCode.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ToString Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ToString.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Instruction Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="InstructionCode Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_InstructionCode.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="MemoryBasic Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MemoryBasic Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MemoryBasic Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetWord Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_GetWord_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Init Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_Init_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SetInstruction Method ">
+          <param name="Local" value="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetInstruction Method (Int32, Instruction)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction_2_a18a18a1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetInstruction Method (Int32, Int32)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction_2_22dcb54d.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SetWord Method ">
+          <param name="Local" value="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWord Method (Int32, Word)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord_2_d3b55887.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWord Method (Int32, Int32)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord_2_22dcb54d.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Number Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Number Constructor ">
+        <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_ctor.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Number Fields">
+        <param name="Local" value="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Number Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Number Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Sign Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_Sign.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Value Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_Value.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Word Class">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Word Constructor ">
+        <param name="Local" value="html\O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Word Constructor ">
+          <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Word Constructor (Int32)">
+          <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor_1_25c8efd2.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Word Constructor (Int32, Int32)">
+          <param name="Local" value="html\C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor_2_a88b0353.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Word Fields">
+        <param name="Local" value="html\Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="memValue Field">
+          <param name="Local" value="html\F_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_memValue.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Word Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Equals Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_Equals_1_d02429b3.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetHashCode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_GetHashCode.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Word Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="UValue Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_UValue.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+<UL>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="ch.zhaw.HenselerGroup.CPU.Interfaces Namespace">
+    <param name="Local" value="html\N_ch_zhaw_HenselerGroup_CPU_Interfaces.htm">
+  </OBJECT></LI>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="ICommand Interface">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ICommand Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Decode Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Decode.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Execute Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Execute_2_c4ed4016.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetCommand Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_GetCommand.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Parse Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Parse_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ICommand Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="CommandLength Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_CommandLength.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Name Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Name.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Syntax Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Syntax.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="ICPU Interface">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ICPU Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetRegisterUValue Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_GetRegisterUValue_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetRegisterValue Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_GetRegisterValue_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="LoadMemory Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_LoadMemory_2_8c5f5448.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ReadPgm Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_ReadPgm_1_bb3a7a4f.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Run Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_Run_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ICPU Properties ">
+        <param name="Local" value="html\Properties_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Memory Property ">
+          <param name="Local" value="html\P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_Memory.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="IMemory Interface">
+      <param name="Local" value="html\T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IMemory Methods ">
+        <param name="Local" value="html\Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GetWord Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_GetWord_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Init Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_Init_1_e1836fc4.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SetInstruction Method ">
+          <param name="Local" value="html\O_T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetInstruction Method (Int32, Instruction)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction_2_a18a18a1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetInstruction Method (Int32, Int32)">
+            <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction_2_22dcb54d.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SetWord Method ">
+          <param name="Local" value="html\M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetWord_2_d3b55887.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+  </UL>
+</UL>  </BODY>
+</HTML>

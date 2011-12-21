@@ -53,5 +53,16 @@ namespace ch.zhaw.HenselerGroup.CPU
         {
             return -1;
         }
+
+
+        public void RunStep(int startAddress)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RunFast(int startAddress)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

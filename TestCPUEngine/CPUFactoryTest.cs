@@ -1,7 +1,7 @@
-﻿using ch.zhaw.HenselerGroup.CPU;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
+using ch.zhaw.HenselerGroup.CPU;
 
 namespace TestCPUEngine
 {   

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ch.zhaw.HenselerGroup.CPU.CPUEngine</name>
+    </assembly>
+    <members>
+        <member name="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)">
+            <summary>
+            Executes the command, Writes direct to the memory
+            </summary>
+        </member>
+        <member name="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Decode">
+            <summary>
+            Decodes a Mnemonic to a Instruction (Binary-Value)
+            </summary>
+            <param name="opcode">Sourcecode line from textfile. 
+            Mostly Mnemonic</param>
+        </member>
+        <member name="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Parse(System.String)">
+            <summary>
+            Parses a String to OpCode (Mnemonic)
+            </summary>
+            <param name="opcode"></param>
+        </member>
+        <member name="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Name">
+            <summary>
+            returns the name of the command e.g. "ADD", "MUL", ...
+            </summary>
+        </member>
+        <member name="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.CommandLength">
+            <summary>
+            Length of the command in Bytes
+            </summary>
+        </member>
+        <member name="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Parse(System.String)">
+            <summary>
+            ADD Rx   ; Add Register x to Accu
+            ADD 500  ; Add 500 to Accu
+            </summary>
+            <param name="opcode"></param>
+            <returns></returns>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.CheckOpCode(ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" ignoriert -->
+        <member name="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.ParseNumber(System.String,System.Int32)">
+            <summary>
+            Parse the number part 
+            </summary>
+            <param name="number"></param>
+            <param name="part">which part of the command contains the number<br/>
+            Sample: Add R1,500 => 3th part<br/>
+             ADD 500 => 2nd part</param>
+            <returns></returns>
+        </member>
+        <member name="M:ch.zhaw.HenselerGroup.CPU.CPU.Run(System.Int32)">
+            <summary>
+            This method runs the program from specified start address
+            </summary>
+            <param name="startAddress">The Adress where the program starts</param>
+        </member>
+    </members>
+</doc>

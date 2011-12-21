@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=i10cpu_NDOC.chm
+Contents file=i10cpu_NDOC.hhc
+Index file=i10cpu_NDOC.hhk
+Default Topic=html\N_ch_zhaw_HenselerGroup_CPU.htm
+Full-text search=Yes
+Language=0x409 English (United States)
+Title=i10cpu_NDOC
+[FILES]
+icons\*.gif
+art\*.gif
+media\*.gif
+scripts\*.js
+styles\*.css
+html\*.htm
+[INFOTYPES]

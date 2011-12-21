@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic id="N:ch.zhaw.HenselerGroup.CPU" project="_Namespaces" file="N_ch_zhaw_HenselerGroup_CPU">
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Config" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Config">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Config.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Config_ctor" />
+      <topic id="Fields.T:ch.zhaw.HenselerGroup.CPU.Config" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Fields_T_ch_zhaw_HenselerGroup_CPU_Config">
+        <topic id="F:ch.zhaw.HenselerGroup.CPU.Config.MEM_SIZE" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="F_ch_zhaw_HenselerGroup_CPU_Config_MEM_SIZE" />
+      </topic>
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Config" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Config" />
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.CPU" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_CPU">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.CPU.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_CPU_ctor" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.CPU" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_CPU">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.CPU.GetRegisterUValue(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_CPU_GetRegisterUValue_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.CPU.GetRegisterValue(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_CPU_GetRegisterValue_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.CPU.LoadMemory(System.String[],System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_CPU_LoadMemory_2_8c5f5448" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.CPU.ReadPgm(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_CPU_ReadPgm_1_bb3a7a4f" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.CPU.Run(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_CPU_Run_1_e1836fc4" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.CPU" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_CPU">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.CPU.Memory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_CPU_Memory" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.CPUException" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_CPUException">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.CPUException.#ctor(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_CPUException_ctor_1_362212bd" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.CPUException" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_CPUException" />
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.CPUException" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_CPUException" />
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.CPUFactory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_CPUFactory">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.CPUFactory.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_CPUFactory_ctor" />
+      <topic id="Fields.T:ch.zhaw.HenselerGroup.CPU.CPUFactory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Fields_T_ch_zhaw_HenselerGroup_CPU_CPUFactory">
+        <topic id="F:ch.zhaw.HenselerGroup.CPU.CPUFactory.CPU_EASY" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="F_ch_zhaw_HenselerGroup_CPU_CPUFactory_CPU_EASY" />
+        <topic id="F:ch.zhaw.HenselerGroup.CPU.CPUFactory.CPU_MOCK" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="F_ch_zhaw_HenselerGroup_CPU_CPUFactory_CPU_MOCK" />
+      </topic>
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.CPUFactory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_CPUFactory">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.CPUFactory.GetCPU(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_CPUFactory_GetCPU_1_bb3a7a4f" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.RegisterSet" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_RegisterSet">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_RegisterSet_ctor" />
+      <topic id="Fields.T:ch.zhaw.HenselerGroup.CPU.RegisterSet" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Fields_T_ch_zhaw_HenselerGroup_CPU_RegisterSet">
+        <topic id="F:ch.zhaw.HenselerGroup.CPU.RegisterSet.LastRegisterNr" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="F_ch_zhaw_HenselerGroup_CPU_RegisterSet_LastRegisterNr" />
+      </topic>
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.RegisterSet" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_RegisterSet">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.GetRegisterUVal(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_RegisterSet_GetRegisterUVal_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.GetRegisterVal(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_RegisterSet_GetRegisterVal_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.MemValToSignedInt(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_RegisterSet_MemValToSignedInt_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.SetRegisterVal(System.Int32,System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_RegisterSet_SetRegisterVal_2_22dcb54d" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.RegisterSet.SignedIntToMemVal(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_RegisterSet_SignedIntToMemVal_1_e1836fc4" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.RegisterSet" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_RegisterSet">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.Accu" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_RegisterSet_Accu" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R1" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R1" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R2" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R2" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R3" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R3" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.RegisterSet.R4" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_RegisterSet_R4" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:ch.zhaw.HenselerGroup.CPU.Impl" project="_Namespaces" file="N_ch_zhaw_HenselerGroup_CPU_Impl">
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_ctor" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory">
+        <topic id="Overload:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.GetCommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="O_T_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand">
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.GetCommand(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand_1_bb3a7a4f" />
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory.GetCommand(ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_CommandFactory_GetCommand_1_2b04e28c" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.eMemory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_eMemory" />
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory_ctor" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory.GetInstance(ch.zhaw.HenselerGroup.CPU.Impl.eMemory)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_MemoryFactory_GetInstance_1_9d9f5177" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:ch.zhaw.HenselerGroup.CPU.Impl.Commands" project="_Namespaces" file="N_ch_zhaw_HenselerGroup_CPU_Impl_Commands">
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_ctor" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.CheckOpCode(ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_CheckOpCode_1_2b04e28c" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Decode" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Decode" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Execute_2_c4ed4016" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.GetCommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_GetCommand" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Parse(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Parse_1_bb3a7a4f" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.CommandLength" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_CommandLength" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Name" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Name" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD.Syntax" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_ADD_Syntax" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ctor" />
+      <topic id="Fields.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase">
+        <topic id="F:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.INVALID_VALUE_INT" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="F_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_INVALID_VALUE_INT" />
+      </topic>
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Decode(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Decode_1_bb3a7a4f" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Execute_2_c4ed4016" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.ParseNumber(System.String,System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ParseNumber_2_90454198" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.ParseRegister(System.String,System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_ParseRegister_2_90454198" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.CommandLength" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_CommandLength" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase.Name" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_CommandBase_Name" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_ctor" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Decode" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Decode" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Execute_2_c4ed4016" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.GetCommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_GetCommand" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Parse(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Parse_1_bb3a7a4f" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.CommandLength" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_CommandLength" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Name" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Name" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD.Syntax" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_LOAD_Syntax" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_ctor" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Decode" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Decode" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Execute_2_c4ed4016" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.GetCommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_GetCommand" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.ch#zhaw#HenselerGroup#CPU#Interfaces#ICommand#Parse(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Parse_1_bb3a7a4f" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Parse(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Parse_1_bb3a7a4f" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.CommandLength" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_CommandLength" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Name" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Name" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE.Syntax" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Commands_MOVE_Syntax" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:ch.zhaw.HenselerGroup.CPU.Impl.Memory" project="_Namespaces" file="N_ch_zhaw_HenselerGroup_CPU_Impl_Memory">
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction">
+      <topic id="Overload:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor_1_25c8efd2" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.#ctor(System.Int32,System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ctor_2_d00b1a0a" />
+      </topic>
+      <topic id="Fields.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.Equals(System.Object)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_Equals_1_d02429b3" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.GetHashCode" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_GetHashCode" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.ToString" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_ToString" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction.InstructionCode" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Instruction_InstructionCode" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_ctor" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.GetWord(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_GetWord_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.Init(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_Init_1_e1836fc4" />
+        <topic id="Overload:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetInstruction" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction">
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetInstruction(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction_2_a18a18a1" />
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetInstruction(System.Int32,System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetInstruction_2_22dcb54d" />
+        </topic>
+        <topic id="Overload:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetWord" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord">
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetWord(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord_2_d3b55887" />
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic.SetWord(System.Int32,System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_MemoryBasic_SetWord_2_22dcb54d" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number">
+      <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_ctor" />
+      <topic id="Fields.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number" />
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number" />
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.Sign" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_Sign" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number.Value" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Number_Value" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word">
+      <topic id="Overload:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="O_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor_1_25c8efd2" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.#ctor(System.Int32,System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="C_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_ctor_2_a88b0353" />
+      </topic>
+      <topic id="Fields.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Fields_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word">
+        <topic id="F:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.memValue" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="F_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_memValue" />
+      </topic>
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.Equals(System.Object)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_Equals_1_d02429b3" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.GetHashCode" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_GetHashCode" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word.UValue" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Impl_Memory_Word_UValue" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:ch.zhaw.HenselerGroup.CPU.Interfaces" project="_Namespaces" file="N_ch_zhaw_HenselerGroup_CPU_Interfaces">
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand">
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Decode" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Decode" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Execute(ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory,ch.zhaw.HenselerGroup.CPU.RegisterSet)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Execute_2_c4ed4016" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.GetCommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_GetCommand" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Parse(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Parse_1_bb3a7a4f" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.CommandLength" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_CommandLength" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Name" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Name" />
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand.Syntax" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICommand_Syntax" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU">
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterUValue(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_GetRegisterUValue_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.GetRegisterValue(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_GetRegisterValue_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.LoadMemory(System.String[],System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_LoadMemory_2_8c5f5448" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.ReadPgm(System.String)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_ReadPgm_1_bb3a7a4f" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Run(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_Run_1_e1836fc4" />
+      </topic>
+      <topic id="Properties.T:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Properties_T_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU">
+        <topic id="P:ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU.Memory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="P_ch_zhaw_HenselerGroup_CPU_Interfaces_ICPU_Memory" />
+      </topic>
+    </topic>
+    <topic id="T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory">
+      <topic id="Methods.T:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="Methods_T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory">
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.GetWord(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_GetWord_1_e1836fc4" />
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.Init(System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_Init_1_e1836fc4" />
+        <topic id="Overload:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="O_T_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction">
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction_2_a18a18a1" />
+          <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetInstruction(System.Int32,System.Int32)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetInstruction_2_22dcb54d" />
+        </topic>
+        <topic id="M:ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory.SetWord(System.Int32,ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word)" project="ch.zhaw.HenselerGroup.CPU.CPUEngine" file="M_ch_zhaw_HenselerGroup_CPU_Interfaces_IMemory_SetWord_2_d3b55887" />
+      </topic>
+    </topic>
+  </topic>
+</topics>

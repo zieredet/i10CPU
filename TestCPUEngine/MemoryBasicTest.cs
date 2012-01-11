@@ -122,7 +122,7 @@ namespace TestCPUEngine
                 i++;
             }
             
-            Assert.AreEqual(i,5);
+            Assert.AreEqual(5,i);
         }
     }
 }

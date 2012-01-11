@@ -37,7 +37,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
         //    }
         //}
 
-        public IEnumerator GetWordEnumerator()
+        public IEnumerator<Word> GetWordEnumerator()
         {
             List<Word> tempMem = new List<Word>();
             int max = mem.Length - 1;
@@ -56,6 +56,8 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
         }
 
 
+        #region IEnumerable<Word> Implementierung
+
         IEnumerator IEnumerable.GetEnumerator()
         {
             return this.GetWordEnumerator();
@@ -63,7 +65,9 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
 
         IEnumerator<Word> IEnumerable<Word>.GetEnumerator()
         {
-            return new List<Word>().GetEnumerator();
+            return GetWordEnumerator();
         }
+        #endregion
+
     }
 }

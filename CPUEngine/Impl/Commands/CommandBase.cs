@@ -13,20 +13,19 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
      * For most of the Interface, I use a abstract Baseclass 
      * which implements default behavior and 
      * default values for most attributes and methods
+     * 
+     * In this Case, we do not use an abstract class 
+     * (since this is suposed to be a better style).
+     * 
+     * This class is a place for static methods 
+     * used in Command-Classes since parsing, 
+     * splitting, converting, etc.
+     * 
      */
-    public abstract class CommandBase
+    public class CommandBase
     {
-        public virtual int CommandLength { get { return 2; } }
 
         public const int INVALID_VALUE_INT = int.MinValue;
-
-        public abstract void Execute(IMemory mem, RegisterSet registerSet);
-
-        public abstract string Name { get; }
-
-        public abstract Instruction Decode(string opcode);
-
-       
 
         /// <summary>
         /// Parse the number part 
@@ -49,6 +48,13 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
             return nbr;
         }
 
+        /// <summary>
+        /// Parse the input an extract the Register Number.
+        /// Sample: 
+        ///   ParseRegister("Add R1,500", 2) => 1
+        /// </summary>
+        /// <returns>RestierNumber</br>
+        /// in case of error it returns INVALID_VALUE_INT</returns>
         public static int ParseRegister(string codeline, int part)
         {
             string[] ss = codeline.Split(' ', ',');

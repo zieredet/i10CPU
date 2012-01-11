@@ -78,7 +78,6 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         /// <returns>true if the word represents this command</returns>
         public static bool CheckOpCode(Word word)
         {
-
             int result = word.UValue | 3072; 
 
             if (result == 3968)

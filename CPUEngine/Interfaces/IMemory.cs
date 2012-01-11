@@ -13,7 +13,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
     /// IMemory mem= new ...();
     /// mem.Init(size in bytes)
     /// </summary>
-    public interface IMemory 
+    public interface IMemory : IEnumerable<Word>
     {
         /// <summary>
         /// Sets and Init the memory
@@ -26,6 +26,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         /// </summary>
         /// <returns>a word not a byte. How long this word is, depends on the implementation</returns>
         Word GetWord(int address);
+        
         void SetWord(int address, Word word);
 
         /// <summary>
@@ -34,6 +35,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         /// <param name="address"></param>
         /// <param name="instuction">bytecode of the instruction</param>
         void SetInstruction(int address, int instuction);
+
         /// <summary>
         /// stores an insturction at the address. 
         /// </summary>
@@ -45,6 +47,8 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         /// Enumerator for the memory. You get only words.
         /// </summary>
         /// <returns></returns>
-        IEnumerator<Word> GetEnumerator();
+        // IEnumerator<Word> GetEnumerator();
+
+
     }
 }

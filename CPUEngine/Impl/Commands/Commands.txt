@@ -1,4 +1,8 @@
 ﻿
+in this file, we note all command to make sure, 
+we have a prefix free encoding of the commands
+
+
     15   14   13    12     11   10   9  8      7  6  5  4   3 2 1 0
  32768 16384 8192 4096 ' 2048 1024 512 256 ' 128 64 32 16 ' 8 4 2 1
 

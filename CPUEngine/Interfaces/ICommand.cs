@@ -10,7 +10,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
     {       
 
         /// <summary>
-        /// Executes the command, Writes direct to the memory
+        /// Executes the command, writes direct to the memory and registerset
         /// </summary>
         void Execute(IMemory mem, RegisterSet registerSet);
 
@@ -20,25 +20,31 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         String Name { get; }
 
         /// <summary>
-        /// Decodes a Mnemonic to a Instruction (Binary-Value)
+        /// Decodes a Mnemonic command to a Instruction (Binary-Value)
         /// </summary>
         /// <param name="opcode">Sourcecode line from textfile. 
         /// Mostly Mnemonic</param>
         Instruction Decode();
 
         /// <summary>
-        /// Length of the command in Bytes
+        /// Length of the command in Bytes. Usualy 2 bytes
         /// </summary>
         int CommandLength { get; }
 
         /// <summary>
         /// Parses a String to OpCode (Mnemonic)
         /// </summary>
-        /// <param name="opcode"></param>
         void Parse(string opcode);
 
+        /// <summary>
+        /// returns the the command as a string in mnemonic style
+        /// </summary>
         string GetCommand();
 
+        /// <summary>
+        /// Provides a string[] with syntax and help information.
+        /// It will not be parsable. It's to display provided wrong syntax is used.
+        /// </summary>
         string[] Syntax { get; }
     }
 }

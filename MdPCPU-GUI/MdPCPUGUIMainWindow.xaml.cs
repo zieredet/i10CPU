@@ -45,7 +45,7 @@ namespace MdPCPUGUI
             
             cpu = CPUFactory.GetCPU(CPUFactory.CPU_EASY);
             
-           // memoryGrid.ItemsSource = cpu.Memory;
+           memoryGrid.ItemsSource = cpu.Memory;
         }
 
         private void memoryGrid_LoadingRow(object sender, DataGridRowEventArgs e)

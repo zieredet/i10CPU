@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Config">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.CPU" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAgAAAQIAAAQAAAQAAwAAAQAAAAI=</HashCode>
+      <FileName>CPU.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.CPUException">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CPUException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.CPUFactory">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIACAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>CPUFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.CPUMock" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAgAAAQIAABQAAAQAAwAAAQAAAAI=</HashCode>
+      <FileName>CPUMock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.RegisterSet">
+    <Position X="5.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACABAAgAgAAAAABAAAAAACAgAAAAAUASAAAAAAA=</HashCode>
+      <FileName>RegisterSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.CommandFactory">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Impl\CommandFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.MemoryFactory">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\MemoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Commands.ADD" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIiAAggAAEAAAQAAAAAAAQAAAAAACAAAQAAQABAAAQ=</HashCode>
+      <FileName>Impl\Commands\ADD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Commands.CommandBase">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\Commands\CommandBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Commands.LOAD" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAggAAAAAAQAAEAAAAQAAAAAACAAAAAAQABAAAQ=</HashCode>
+      <FileName>Impl\Commands\LOAD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Commands.MOVE" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAggAAAAAAQAAAAAAAQAACAAAAAAAAAAQABAAAA=</HashCode>
+      <FileName>Impl\Commands\MOVE.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Memory.Instruction">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAEgAAAAAAAAAAEAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\Memory\Instruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEQAAAAAAAAAEAAACACgABAA=</HashCode>
+      <FileName>Impl\Memory\MemoryBasic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Memory.Number">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Impl\Memory\Number.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAQAAIAAAAAAgAAAAAA=</HashCode>
+      <FileName>Impl\Memory\Word.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ch.zhaw.HenselerGroup.CPU.Interfaces.ICommand">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAgAAAAAAQAAAAAAAQAAAAAAAAAAAAAQABAAAA=</HashCode>
+      <FileName>Interfaces\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ch.zhaw.HenselerGroup.CPU.Interfaces.ICPU">
+    <Position X="7" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAIAAAQAAAQAAwAAAQAAAAI=</HashCode>
+      <FileName>Interfaces\ICPU.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ch.zhaw.HenselerGroup.CPU.Interfaces.IMemory">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAACACAAAAA=</HashCode>
+      <FileName>Interfaces\IMemory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ch.zhaw.HenselerGroup.CPU.Impl.eMemory">
+    <Position X="10.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\MemoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

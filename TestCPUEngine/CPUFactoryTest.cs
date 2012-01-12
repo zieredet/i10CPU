@@ -79,9 +79,9 @@ namespace TestCPUEngine
         [TestMethod()]
         public void GetCPUTestMock()
         {
-            string cpuName = CPUFactory.CPU_MOCK;
+            string cpuName = CPUFactory.CPU_STUB;
             ICPU actual= CPUFactory.GetCPU(cpuName);
-            Assert.IsTrue(actual is CPUMock, "wrong class. Expect CPUMock");
+            Assert.IsTrue(actual is CPUStub, "wrong class. Expect CPUMock");
         }
     }
 }

@@ -364,9 +364,7 @@
             <Grid >
                 <DataGrid Width="Auto" HorizontalContentAlignment="Right" HorizontalScrollBarVisibility="Hidden" RowHeaderWidth="40" AutoGenerateColumns="False" SelectionMode="Extended" x:Name="memoryGrid" LoadingRow="memoryGrid_LoadingRow" CanUserSortColumns="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserResizeColumns="False" Margin="8" CanUserResizeRows="False">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Bin Data" Width="100" IsReadOnly="False" Binding="{Binding DataBin}" />
-                        <DataGridTextColumn Header="Dec Data" Width="100" IsReadOnly="False" Binding="{Binding DataInt}" />
-                        <DataGridTextColumn Header="Hex Data" Width="100" IsReadOnly="False" Binding="{Binding DataHex}" />
+                        <DataGridTextColumn Header="Data Word (16 bit)" Width="200" IsReadOnly="False" Binding="{Binding UValue}" />
                     </DataGrid.Columns>
 
                 </DataGrid>

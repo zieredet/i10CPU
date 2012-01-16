@@ -9,14 +9,14 @@ using ch.zhaw.HenselerGroup.CPU.Impl;
 
 namespace ch.zhaw.HenselerGroup.CPU
 {
-    public class CPUMock : ICPU
+    public class CPUStub : ICPU
     {
         private string[] codelines = new string[] { "ADD 250" };
 
         private IMemory mem = null;
         private RegisterSet registerSet = null;
         
-        public CPUMock()
+        public CPUStub()
         {
             mem = new MemoryBasic();
             mem.Init(Config.MEM_SIZE);

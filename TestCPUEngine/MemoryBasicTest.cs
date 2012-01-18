@@ -77,8 +77,6 @@ namespace TestCPUEngine
 
             MockRepository mocks = new MockRepository();
 
-           // IWord wordMock = (IWord)mocks.CreateMock(typeof(IWord));
-
             var wordMock = MockRepository.GenerateStub<IWord>();  
             
             wordMock.Stub(x => x.UValue).Return(10);
@@ -103,14 +101,23 @@ namespace TestCPUEngine
         public void GetWordTest()
         {
 
-            MemoryBasic mem = new MemoryBasic();
-            mem.Init(10);
+            MockRepository mocks = new MockRepository();
+
+            var wordMock = MockRepository.GenerateStub<IWord>();
+
+            wordMock.Stub(x => x.UValue).Return(10);
+
+            MemoryBasic target = new MemoryBasic();          
+            
+            target.Init(16);
+
             int address = 4;
-            IWord expected = new Word(0, 100);
-            IWord actual;
-            mem.SetWord(address, expected);
-            actual = mem.GetWord(address);
-            Assert.AreEqual(expected, actual);
+                    
+            target.SetWord(address, wordMock);
+            
+            IWord current = target.GetWord(address);
+
+            Assert.AreEqual(wordMock.UValue, current.UValue);
         }
 
 

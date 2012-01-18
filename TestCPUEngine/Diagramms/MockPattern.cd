@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Class Under Test">
+    <Position X="3.25" Y="6.25" Height="0.375" Width="1.127" />
+  </Comment>
+  <Comment CommentText="          Test">
+    <Position X="3.204" Y="2.771" Height="0.375" Width="1.127" />
+  </Comment>
+  <Comment CommentText="   Interface Dependency">
+    <Position X="2.958" Y="8.312" Height="0.375" Width="1.617" />
+  </Comment>
+  <Comment CommentText="  Concrete Implementation Of Dependency">
+    <Position X="0.738" Y="11.312" Height="0.385" Width="2.627" />
+  </Comment>
+  <Comment CommentText="Mock Object">
+    <Position X="4.388" Y="9.702" Height="1.352" Width="2.096" />
+  </Comment>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Memory.MemoryBasic">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ch.zhaw.HenselerGroup.CPU.Impl.Memory.Word">
+    <Position X="1.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestCPUEngine.MemoryBasicTest">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAACQAAAA=</HashCode>
+      <FileName>MemoryBasicTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ch.zhaw.HenselerGroup.CPU.Interfaces.IWord">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

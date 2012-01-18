@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBF514CA-A950-46C2-A818-566A1D146933}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
+		UML\MdPCPU.vsd = UML\MdPCPU.vsd
 		MdPCPU.vsmdi = MdPCPU.vsmdi
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection

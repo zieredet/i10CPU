@@ -25,9 +25,9 @@ namespace ch.zhaw.HenselerGroup.CPU.Interfaces
         /// Get the word at the address 
         /// </summary>
         /// <returns>a word not a byte. How long this word is, depends on the implementation</returns>
-        Word GetWord(int address);
+        IWord GetWord(int address);
         
-        void SetWord(int address, Word word);
+        void SetWord(int address, IWord word);
 
         /// <summary>
         /// stores an insturction as a bytecode at the address. 

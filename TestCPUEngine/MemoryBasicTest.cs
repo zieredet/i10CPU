@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using Rhino.Mocks;
 using ch.zhaw.HenselerGroup.CPU.Impl.Memory;
 using ch.zhaw.HenselerGroup.CPU.Interfaces;
 
@@ -72,16 +72,28 @@ namespace TestCPUEngine
         ///A test for SetWord
         ///</summary>
         [TestMethod()]
-        public void SetWordTest()
+        public void SetWordMockTest()
         {
+
+            MockRepository mocks = new MockRepository();
+
+           // IWord wordMock = (IWord)mocks.CreateMock(typeof(IWord));
+
+            var wordMock = MockRepository.GenerateStub<IWord>();  
+            
+            wordMock.Stub(x => x.UValue).Return(10);
+
+        
             MemoryBasic target = new MemoryBasic();
             target.Init(16);
-            int address = 10;
 
-            Word expected = new Word(0, 10);
-            target.SetWord(address, expected);
-            Word current = target.GetWord(address);
-            Assert.AreEqual(current.UValue, expected.UValue);
+            int address = 8;
+
+            target.SetWord(address, wordMock);
+
+            IWord current = target.GetWord(address);
+            
+            Assert.AreEqual(current.UValue, wordMock.UValue);
         }
 
         /// <summary>
@@ -94,8 +106,8 @@ namespace TestCPUEngine
             MemoryBasic mem = new MemoryBasic();
             mem.Init(10);
             int address = 4;
-            Word expected = new Word(0, 100);
-            Word actual;
+            IWord expected = new Word(0, 100);
+            IWord actual;
             mem.SetWord(address, expected);
             actual = mem.GetWord(address);
             Assert.AreEqual(expected, actual);

@@ -76,7 +76,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Commands
         /// <param name="word">A word from the memory</param>
         /// </param>
         /// <returns>true if the word represents this command</returns>
-        public static bool CheckOpCode(Word word)
+        public static bool CheckOpCode(IWord word)
         {
             int result = word.UValue | 3072; 
 

@@ -14,3 +14,10 @@ C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\bin\Debug\ch.zhaw.Henseler
 C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\obj\Debug\ResolveAssemblyReference.cache
 C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
 C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\CPUEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\CPUEngine\obj\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\CPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\CPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\CPUEngine\bin\Debug\WPFToolkit.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\CPUEngine\bin\Debug\WPFToolkit.pdb

@@ -25,7 +25,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl
             return null;
         }
 
-        public static ICommand GetCommand(Word codeLine)
+        public static ICommand GetCommand(IWord codeLine)
         {
             if(ADD.CheckOpCode(codeLine)) return new ADD(); 
 

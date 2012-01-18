@@ -12,3 +12,12 @@ C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\bin\Debug\ch.zhaw.Hens
 C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\obj\Debug\ResolveAssemblyReference.cache
 C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.dll
 C:\Dropbox\DevProjects\CSharp\MdPCPU\MdPCPU\TestCPUEngine\obj\Debug\TestCPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\obj\Debug\TestCPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\bin\Debug\TestCPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\bin\Debug\TestCPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\bin\Debug\Rhino.Mocks.dll
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\bin\Debug\ch.zhaw.HenselerGroup.CPU.CPUEngine.pdb
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\bin\Debug\Rhino.Mocks.xml
+C:\Dropbox\DevProjects\CSharp\MdPCPU\i10CPU\TestCPUEngine\obj\Debug\TestCPUEngine.pdb

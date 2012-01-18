@@ -9,7 +9,7 @@ namespace ch.zhaw.HenselerGroup.CPU.Impl.Memory
     /// Base Class for a Memory Item. 
     /// Memory stores just Word with 2Bytes 
     /// </summary>
-    public class Word
+    public class Word : ch.zhaw.HenselerGroup.CPU.Interfaces.IWord
     {
         protected int memValue;
 

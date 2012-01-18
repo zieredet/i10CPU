@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Rhino.Mocks">
-      <HintPath>..\Rhino.Mocks-3.6-Build-21\Rhino.Mocks.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +55,7 @@
     <Compile Include="CPUFactory.cs" />
     <Compile Include="Impl\MemoryFactory.cs" />
     <Compile Include="Impl\Memory\Instruction.cs" />
+    <Compile Include="Interfaces\IWord.cs" />
     <Compile Include="Impl\Memory\Number.cs" />
     <Compile Include="Impl\Memory\Word.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
